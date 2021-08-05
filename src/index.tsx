@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { ConfigProvider } from 'antd';
+
+import locale from 'antd/es/locale/zh_CN';
+import 'normalize.css';
+import './index.less';
+import Recorder from './Recorder';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ConfigProvider locale={locale}>
+    <Recorder />
+  </ConfigProvider>,
   document.getElementById('root')
 );
 
