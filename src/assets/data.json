@@ -1,0 +1,1479 @@
+{
+    "name": "root",
+    "value": 0,
+    "children": [
+        {
+            "name": "com.meitu.remote.hotfix.app.RemoteHotfixApplication.attachBaseContext.(Landroid.content.Context;)V",
+            "value": 14,
+            "code": 9,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.remote.hotfix.internal.RemoteApplicationLike.onBaseContextAttached.(Landroid.content.Context;)V",
+                    "value": 6,
+                    "code": 184,
+                    "slowFlag": 0,
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.remote.hotfix.internal.RemoteApplicationLike.onCreate.()V",
+            "value": 10,
+            "code": 185,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.remote.hotfix.ApplicationDelegate$Invoker.callOnCreate.()V",
+                    "value": 10,
+                    "code": 2066,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.wheecam.common.app.WheeCamApplication.onCreate.()V",
+                            "value": 10,
+                            "code": 2966,
+                            "slowFlag": 0,
+                            "children": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.wheecam.main.startup.StartupActivity.onCreate.(Landroid.os.Bundle;)V",
+            "value": 364,
+            "code": 11635,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.wheecam.common.base.WheeCamBaseActivity.onCreate.(Landroid.os.Bundle;)V",
+                    "value": 20,
+                    "code": 7582,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.wheecam.aspect.MethodAspect.aroundCallGetMethod.(Lorg.aspectj.lang.ProceedingJoinPoint;)Ljava.lang.Object;",
+                            "value": 16,
+                            "code": 11908,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.wheecam.aspect.MethodAspect.aroundOldResult.(Lorg.aspectj.lang.ProceedingJoinPoint;)Ljava.lang.Object;",
+                                    "value": 16,
+                                    "code": 11876,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.wheecam.common.app.ApplicationEventBus.onEventSwitchFGOrBg.(Lcom.meitu.wheecam.community.event.EventSwitchFGOrBg;)V",
+                                            "value": 16,
+                                            "code": 18777,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.wheecam.community.app.controller.CommonApiController.<clinit>.()V",
+                                                    "value": 16,
+                                                    "code": 8892,
+                                                    "slowFlag": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "com.meitu.library.util.device.DeviceUtils.getImeiValue.()Ljava.lang.String;",
+                                                            "value": 12,
+                                                            "code": 23019,
+                                                            "slowFlag": 0,
+                                                            "children": [
+                                                                {
+                                                                    "name": "com.meitu.wheecam.aspect.MethodAspect.aroundCallGetDeviceId.(Lorg.aspectj.lang.ProceedingJoinPoint;)Ljava.lang.Object;",
+                                                                    "value": 12,
+                                                                    "code": 11885,
+                                                                    "slowFlag": 0,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "com.meitu.wheecam.common.app.WheeCamAppUtils.isUserAgreePrivacyAgreement.()Z",
+                                                                            "value": 9,
+                                                                            "code": 14488,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.wheecam.community.utils.PrivacyManager$Companion.isPrivacyAuthorized.(Landroid.content.Context;)Z",
+                                                                                    "value": 9,
+                                                                                    "code": 13017,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": null
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "com.meitu.wheecam.main.startup.StartupActivity.showPrivacyPopIfNeeded.()V",
+                    "value": 339,
+                    "code": 11636,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.wheecam.main.startup.StartupActivity.peimission.()V",
+                            "value": 339,
+                            "code": 11637,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.wheecam.main.startup.StartupActivity.showPermissionDialog.()V",
+                                    "value": 339,
+                                    "code": 11638,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.wheecam.main.startup.StartupActivity.handleOnPermissionGranted.()V",
+                                            "value": 339,
+                                            "code": 11642,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.wheecam.common.startup.AppInitialization.start.(Landroid.app.Application;J)V",
+                                                    "value": 325,
+                                                    "code": 11433,
+                                                    "slowFlag": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "com.meitu.wheecam.common.startup.NonMainDexInitializer.init.(Landroid.app.Application;Ljava.lang.String;Z)V",
+                                                            "value": 324,
+                                                            "code": 5693,
+                                                            "slowFlag": 0,
+                                                            "children": [
+                                                                {
+                                                                    "name": "com.meitu.wheecam.common.startup.NonMainDexInitializer.initInMainProcess.(Landroid.app.Application;)V",
+                                                                    "value": 324,
+                                                                    "code": 5694,
+                                                                    "slowFlag": 0,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "com.meitu.wheecam.common.statistic.SelfieCityAnalyticsAgent.initSdk.(Landroid.app.Application;)V",
+                                                                            "value": 12,
+                                                                            "code": 13483,
+                                                                            "slowFlag": 0,
+                                                                            "children": null
+                                                                        },
+                                                                        {
+                                                                            "name": "com.meitu.pushkit.sdk.MeituPush.initContextAndSmallIcon.(Landroid.content.Context;I)V",
+                                                                            "value": 8,
+                                                                            "code": 34651,
+                                                                            "slowFlag": 0,
+                                                                            "children": null
+                                                                        },
+                                                                        {
+                                                                            "name": "com.meitu.wheecam.business.utils.BusinessAdSdkUtils.businessAdSdkInit.(Landroid.app.Application;)V",
+                                                                            "value": 194,
+                                                                            "code": 14126,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.wheecam.common.statistic.SelfieCityAnalyticsAgent.getGid.()Ljava.lang.String;",
+                                                                                    "value": 13,
+                                                                                    "code": 13502,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.library.analytics.Teemo.getGid.()Ljava.lang.String;",
+                                                                                            "value": 13,
+                                                                                            "code": 24560,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "com.meitu.library.analytics.gid.GidHelper$1.get.",
+                                                                                                    "value": 13,
+                                                                                                    "code": 32139,
+                                                                                                    "slowFlag": 0,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "com.meitu.library.analytics.gid.GidHelper.get.",
+                                                                                                            "value": 13,
+                                                                                                            "code": 32158,
+                                                                                                            "slowFlag": 0,
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "com.meitu.library.analytics.gid.GidHelper.buildLocalGidInfo.",
+                                                                                                                    "value": 13,
+                                                                                                                    "code": 32161,
+                                                                                                                    "slowFlag": 0,
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "com.meitu.library.analytics.sdk.storage.StorageManager.get.",
+                                                                                                                            "value": 13,
+                                                                                                                            "code": 35188,
+                                                                                                                            "slowFlag": 0,
+                                                                                                                            "children": null
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "name": "com.meitu.business.ads.core.MtbGlobalAdConfig.initMtbAd.",
+                                                                                    "value": 44,
+                                                                                    "code": 49044,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.business.ads.core.MtbGlobalAdConfig.isRequestMtUnionAd.()Z",
+                                                                                            "value": 44,
+                                                                                            "code": 49045,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "com.meitu.business.ads.analytics.Analytics.init.",
+                                                                                                    "value": 32,
+                                                                                                    "code": 49297,
+                                                                                                    "slowFlag": 0,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "com.meitu.business.ads.analytics.StatisticsImpl.init.",
+                                                                                                            "value": 32,
+                                                                                                            "code": 49102,
+                                                                                                            "slowFlag": 0,
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "com.meitu.business.ads.analytics.miit.MiitManager.init.()V",
+                                                                                                                    "value": 31,
+                                                                                                                    "code": 45597,
+                                                                                                                    "slowFlag": 0,
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "com.meitu.business.ads.analytics.miit.MiitManager.initOaidByCache.()V",
+                                                                                                                            "value": 31,
+                                                                                                                            "code": 45599,
+                                                                                                                            "slowFlag": 0,
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "com.meitu.business.ads.utils.preference.DefaultPreference.getString.(Ljava.lang.String;Ljava.lang.String;)Ljava.lang.String;",
+                                                                                                                                    "value": 31,
+                                                                                                                                    "code": 45484,
+                                                                                                                                    "slowFlag": 0,
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "com.meitu.business.ads.utils.preference.SharedPreferenceUtils.getSharedPreferencesValue.",
+                                                                                                                                            "value": 31,
+                                                                                                                                            "code": 44544,
+                                                                                                                                            "slowFlag": 0,
+                                                                                                                                            "children": null
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": "com.meitu.business.ads.core.MtbGlobalAdConfig.initAoertong.(Landroid.content.Context;)V",
+                                                                                                    "value": 9,
+                                                                                                    "code": 49048,
+                                                                                                    "slowFlag": 0,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "com.meitu.business.ads.core.agent.setting.SettingsManager.isCanInit.(Ljava.lang.String;)Z",
+                                                                                                            "value": 9,
+                                                                                                            "code": 45063,
+                                                                                                            "slowFlag": 0,
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "com.meitu.business.ads.core.agent.setting.SettingsManager.getSdkList.()Ljava.util.List;",
+                                                                                                                    "value": 9,
+                                                                                                                    "code": 45030,
+                                                                                                                    "slowFlag": 0,
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "com.meitu.business.ads.core.agent.setting.SettingsPreference.getSdkList.()Ljava.util.List;",
+                                                                                                                            "value": 9,
+                                                                                                                            "code": 46071,
+                                                                                                                            "slowFlag": 0,
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "com.meitu.business.ads.utils.preference.BasePreference$2.onReadTransaction.()Ljava.lang.String;",
+                                                                                                                                    "value": 9,
+                                                                                                                                    "code": 44462,
+                                                                                                                                    "slowFlag": 0,
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "com.meitu.business.ads.utils.preference.SharedPreferenceUtils.getSharedPreferencesValue.",
+                                                                                                                                            "value": 9,
+                                                                                                                                            "code": 44544,
+                                                                                                                                            "slowFlag": 0,
+                                                                                                                                            "children": null
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "name": "com.meitu.wheecam.business.AdConfigUtils.initTouTiao.(Landroid.content.Context;)V",
+                                                                                    "value": 75,
+                                                                                    "code": 2210,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.business.ads.toutiao.Toutiao.initToutiao.(Landroid.content.Context;Ljava.lang.String;)V",
+                                                                                            "value": 75,
+                                                                                            "code": 50731,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "com.meitu.business.ads.toutiao.Toutiao.initToutiao.(Landroid.content.Context;Ljava.lang.String;Z)V",
+                                                                                                    "value": 75,
+                                                                                                    "code": 50732,
+                                                                                                    "slowFlag": 0,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "com.meitu.business.ads.core.dsp.adconfig.AdConfigAgentController.getInstance.",
+                                                                                                            "value": 43,
+                                                                                                            "code": 43537,
+                                                                                                            "slowFlag": 0,
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "com.meitu.business.ads.core.dsp.adconfig.AdConfigAgentController$InnerHolder.<clinit>.()V",
+                                                                                                                    "value": 43,
+                                                                                                                    "code": 48489,
+                                                                                                                    "slowFlag": 0,
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "com.meitu.business.ads.core.dsp.adconfig.DynamicAdConfigAgent.getInstance.",
+                                                                                                                            "value": 43,
+                                                                                                                            "code": 42587,
+                                                                                                                            "slowFlag": 0,
+                                                                                                                            "children": null
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "com.meitu.business.ads.toutiao.TTAdManagerHolder.init.(Landroid.content.Context;Ljava.lang.String;Z)V",
+                                                                                                            "value": 32,
+                                                                                                            "code": 50820,
+                                                                                                            "slowFlag": 0,
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "com.meitu.business.ads.toutiao.TTAdManagerHolder.doInit.(Landroid.content.Context;Ljava.lang.String;Z)V",
+                                                                                                                    "value": 32,
+                                                                                                                    "code": 50821,
+                                                                                                                    "slowFlag": 0,
+                                                                                                                    "children": null
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "name": "com.meitu.wheecam.business.AdConfigUtils.initTencent.(Landroid.content.Context;)V",
+                                                                                    "value": 59,
+                                                                                    "code": 2211,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.business.ads.tencent.Tencent.initTencent.(Landroid.content.Context;Ljava.lang.String;)V",
+                                                                                            "value": 59,
+                                                                                            "code": 51260,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "com.meitu.business.ads.tencent.TencentAdManagerHolder.init.(Landroid.content.Context;Ljava.lang.String;)V",
+                                                                                                    "value": 59,
+                                                                                                    "code": 51064,
+                                                                                                    "slowFlag": 0,
+                                                                                                    "children": null
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "com.meitu.wheecam.common.app.CameraOnlineConfigManager.init.(Landroid.app.Application;Z)V",
+                                                                            "value": 30,
+                                                                            "code": 2935,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.library.camera.strategy.MTCameraStrategy.init.",
+                                                                                    "value": 30,
+                                                                                    "code": 28880,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.library.camera.strategy.repo.MTRemoteConfigManager.init.(ZJ)V",
+                                                                                            "value": 25,
+                                                                                            "code": 28808,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "com.meitu.library.camera.strategy.repo.MTRemoteConfigManager.getRemoteConfig.()Lcom.meitu.remote.config.RemoteConfig;",
+                                                                                                    "value": 25,
+                                                                                                    "code": 28807,
+                                                                                                    "slowFlag": 0,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "com.meitu.remote.config.RemoteConfig.getInstance.(Ljava.lang.String;)Lcom.meitu.remote.config.RemoteConfig;",
+                                                                                                            "value": 25,
+                                                                                                            "code": 426,
+                                                                                                            "slowFlag": 0,
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "com.meitu.remote.config.RemoteConfigComponent.get.(Ljava.lang.String;)Lcom.meitu.remote.config.RemoteConfig;",
+                                                                                                                    "value": 25,
+                                                                                                                    "code": 470,
+                                                                                                                    "slowFlag": 0,
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "com.meitu.remote.config.RemoteConfigComponent.getFetchHandler.",
+                                                                                                                            "value": 22,
+                                                                                                                            "code": 472,
+                                                                                                                            "slowFlag": 0,
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "com.meitu.remote.config.RemoteConfigComponent.getFrcBackendApiClient.",
+                                                                                                                                    "value": 22,
+                                                                                                                                    "code": 471,
+                                                                                                                                    "slowFlag": 0,
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "com.meitu.remote.config.internal.ConfigMetadataClient.getFetchTimeoutInSeconds.()J",
+                                                                                                                                            "value": 22,
+                                                                                                                                            "code": 590,
+                                                                                                                                            "slowFlag": 0,
+                                                                                                                                            "children": null
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "com.meitu.core.MTFilterGLRender.setContext.(Landroid.content.Context;)V",
+                                                                            "value": 6,
+                                                                            "code": 36837,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.core.MTFilterGLRender.tryLoadLibrary.()V",
+                                                                                    "value": 6,
+                                                                                    "code": 36839,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.core.MTFilterGLRender.loadFilterRenderLibrary.(Landroid.content.Context;)V",
+                                                                                            "value": 6,
+                                                                                            "code": 36838,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": null
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "com.meitu.core.FilterGLMVRender.setContext.(Landroid.content.Context;)V",
+                                                                            "value": 24,
+                                                                            "code": 32081,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.core.FilterGLMVRender.tryLoadLibrary.()V",
+                                                                                    "value": 24,
+                                                                                    "code": 32083,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.core.FilterGLMVRender.loadFilterMVRenderLibrary.(Landroid.content.Context;)V",
+                                                                                            "value": 24,
+                                                                                            "code": 32082,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "com.meitu.remote.hotfix.internal.TransformUtil.loadLibrary.(Ljava.lang.String;)V",
+                                                                                                    "value": 19,
+                                                                                                    "code": 231,
+                                                                                                    "slowFlag": 0,
+                                                                                                    "children": null
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "com.meitu.wheecam.common.startup.NonMainDexInitializer.configRemoteHotfix.(Landroid.content.Context;)V",
+                                                                            "value": 10,
+                                                                            "code": 5698,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.remote.hotfix.RemoteHotfix.fetch.()Lcom.google.android.gms.tasks.Task;",
+                                                                                    "value": 8,
+                                                                                    "code": 264,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.remote.hotfix.internal.HotfixFetchHandler.fetch.()Lcom.google.android.gms.tasks.Task;",
+                                                                                            "value": 8,
+                                                                                            "code": 103,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "com.meitu.remote.hotfix.internal.HotfixMetadataClient.getMinimumFetchIntervalInSeconds.()J",
+                                                                                                    "value": 8,
+                                                                                                    "code": 132,
+                                                                                                    "slowFlag": 0,
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "com.meitu.remote.hotfix.internal.HotfixPreference.getRemoteHotfixSettings.()Lcom.meitu.remote.hotfix.RemoteHotfixSettings;",
+                                                                                                            "value": 8,
+                                                                                                            "code": 146,
+                                                                                                            "slowFlag": 0,
+                                                                                                            "children": null
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "com.meitu.wheecam.common.utils.SharedPreferencesUtil.getTraceBufferSize.()I",
+                                                                            "value": 7,
+                                                                            "code": 6900,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.library.util.io.SharedPreferencesUtils.getSharedPreferencesValue.(Ljava.lang.String;Ljava.lang.String;I)I",
+                                                                                    "value": 7,
+                                                                                    "code": 22750,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": null
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "com.meitu.library.appcia.AppCIA$Builder.start.()V",
+                                                                            "value": 23,
+                                                                            "code": 20650,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.library.appcia.crash.MTCrashUpload.init.(Lcom.meitu.library.appcia.crash.InitConfig;)V",
+                                                                                    "value": 23,
+                                                                                    "code": 20867,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.library.appcia.crash.core.DefaultXCrashInitializer.init.(Landroid.content.Context;Lxcrash.ICrashCallback;)V",
+                                                                                            "value": 22,
+                                                                                            "code": 20815,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": null
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.wheecam.main.startup.StartupActivity.onStart.()V",
+            "value": 14,
+            "code": 11643,
+            "slowFlag": 0,
+            "children": null
+        },
+        {
+            "name": "com.meitu.wheecam.main.startup.StartupActivity.onResume.()V",
+            "value": 15,
+            "code": 11646,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.wheecam.common.base.WheeCamBaseActivity.onResume.()V",
+                    "value": 15,
+                    "code": 7570,
+                    "slowFlag": 0,
+                    "children": null
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.wheecam.aspect.MethodAspect.aroundCallRequestLocationSingleUpdates.(Lorg.aspectj.lang.ProceedingJoinPoint;)V",
+            "value": 9,
+            "code": 11904,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.wheecam.aspect.MethodAspect.aroundResult.(Lorg.aspectj.lang.ProceedingJoinPoint;ZZ)Ljava.lang.Object;",
+                    "value": 7,
+                    "code": 11873,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.wheecam.aspect.MethodAspect.aroundResult.",
+                            "value": 7,
+                            "code": 11874,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.wheecam.aspect.MethodAspect.aroundOldResult.(Lorg.aspectj.lang.ProceedingJoinPoint;)Ljava.lang.Object;",
+                                    "value": 7,
+                                    "code": 11876,
+                                    "slowFlag": 0,
+                                    "children": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.remote.hotfix.internal.RemoteApplicationLike.startService.(Landroid.content.Intent;)Landroid.content.ComponentName;",
+            "value": 11,
+            "code": 202,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.remote.hotfix.ApplicationDelegate$Invoker.callStartService.(Landroid.content.Intent;)Landroid.content.ComponentName;",
+                    "value": 11,
+                    "code": 2083,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.remote.hotfix.ApplicationDelegate.startService.(Landroid.content.Intent;)Landroid.content.ComponentName;",
+                            "value": 11,
+                            "code": 2107,
+                            "slowFlag": 0,
+                            "children": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.library.appcia.diskspace.DiskSpaceOfficer.queueIdle.()Z",
+            "value": 228,
+            "code": 20677,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.library.appcia.diskspace.packsize.AppPackageInspector.getAppSize.",
+                    "value": 228,
+                    "code": 20664,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getDocumentList.(Landroid.content.Context;)Ljava.util.HashMap;",
+                            "value": 219,
+                            "code": 20928,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getDocumentList.(Ljava.io.File;Ljava.lang.String;)Ljava.util.HashMap;",
+                                    "value": 159,
+                                    "code": 20929,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getDocumentList.(Ljava.io.File;Ljava.lang.String;I)Ljava.util.HashMap;",
+                                            "value": 159,
+                                            "code": 20930,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeRecursive.",
+                                                    "value": 159,
+                                                    "code": 20933,
+                                                    "slowFlag": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeRecursive.",
+                                                            "value": 48,
+                                                            "code": 20933,
+                                                            "slowFlag": 0,
+                                                            "children": null
+                                                        },
+                                                        {
+                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeRecursive.",
+                                                            "value": 41,
+                                                            "code": 20933,
+                                                            "slowFlag": 0,
+                                                            "children": [
+                                                                {
+                                                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSize.(Ljava.io.File;)J",
+                                                                    "value": 18,
+                                                                    "code": 20931,
+                                                                    "slowFlag": 0,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeIteration.(JLjava.util.List;)J",
+                                                                            "value": 18,
+                                                                            "code": 20932,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeIteration.(JLjava.util.List;)J",
+                                                                                    "value": 17,
+                                                                                    "code": 20932,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeIteration.(JLjava.util.List;)J",
+                                                                                            "value": 14,
+                                                                                            "code": 20932,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": null
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSize.(Ljava.io.File;)J",
+                                                                    "value": 20,
+                                                                    "code": 20931,
+                                                                    "slowFlag": 0,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeIteration.(JLjava.util.List;)J",
+                                                                            "value": 20,
+                                                                            "code": 20932,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeIteration.(JLjava.util.List;)J",
+                                                                                    "value": 9,
+                                                                                    "code": 20932,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeIteration.(JLjava.util.List;)J",
+                                                                                            "value": 6,
+                                                                                            "code": 20932,
+                                                                                            "slowFlag": 0,
+                                                                                            "children": null
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeRecursive.",
+                                                            "value": 41,
+                                                            "code": 20933,
+                                                            "slowFlag": 0,
+                                                            "children": [
+                                                                {
+                                                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSize.(Ljava.io.File;)J",
+                                                                    "value": 7,
+                                                                    "code": 20931,
+                                                                    "slowFlag": 0,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeIteration.(JLjava.util.List;)J",
+                                                                            "value": 7,
+                                                                            "code": 20932,
+                                                                            "slowFlag": 0,
+                                                                            "children": null
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getDocumentList.(Ljava.io.File;Ljava.lang.String;)Ljava.util.HashMap;",
+                                    "value": 60,
+                                    "code": 20929,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getDocumentList.(Ljava.io.File;Ljava.lang.String;I)Ljava.util.HashMap;",
+                                            "value": 60,
+                                            "code": 20930,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeRecursive.",
+                                                    "value": 60,
+                                                    "code": 20933,
+                                                    "slowFlag": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeRecursive.",
+                                                            "value": 60,
+                                                            "code": 20933,
+                                                            "slowFlag": 0,
+                                                            "children": [
+                                                                {
+                                                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSize.(Ljava.io.File;)J",
+                                                                    "value": 32,
+                                                                    "code": 20931,
+                                                                    "slowFlag": 0,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeIteration.(JLjava.util.List;)J",
+                                                                            "value": 31,
+                                                                            "code": 20932,
+                                                                            "slowFlag": 0,
+                                                                            "children": null
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSize.(Ljava.io.File;)J",
+                                                                    "value": 14,
+                                                                    "code": 20931,
+                                                                    "slowFlag": 0,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeIteration.(JLjava.util.List;)J",
+                                                                            "value": 14,
+                                                                            "code": 20932,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.library.appcia.base.utils.FileCollectUtils.getFolderSizeIteration.(JLjava.util.List;)J",
+                                                                                    "value": 11,
+                                                                                    "code": 20932,
+                                                                                    "slowFlag": 0,
+                                                                                    "children": null
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "com.meitu.library.appcia.diskspace.packsize.AppPackageInspector.getAppSizeAt26.",
+                            "value": 7,
+                            "code": 20667,
+                            "slowFlag": 0,
+                            "children": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.business.ads.core.time.CustomTimerTask$1.run.()V",
+            "value": 8,
+            "code": 49478,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.business.ads.core.feature.startup.MtbStartupEngine.startupRequestTimeOut.()V",
+                    "value": 8,
+                    "code": 49142,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.business.ads.core.feature.startup.model.StartupDataLayerManager.onLoadTaskFail.(I)V",
+                            "value": 8,
+                            "code": 46972,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.business.ads.core.feature.startup.MtbStartupEngine$2.onLoadTaskFail.(I)V",
+                                    "value": 8,
+                                    "code": 46146,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.business.ads.core.feature.startup.MtbStartupEngine.access$300.",
+                                            "value": 8,
+                                            "code": 49157,
+                                            "slowFlag": 0,
+                                            "children": null
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.business.ads.core.feature.startup.MtbStartupEngine.lambda$disallowStartupAtDelayTime$1.()V",
+            "value": 34,
+            "code": 49152,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.business.ads.core.feature.startup.MtbStartupEngine.startupAdvertiseFail.()V",
+                    "value": 34,
+                    "code": 49145,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.wheecam.main.startup.StartupActivity$4.onStartupAdStartFail.()V",
+                            "value": 32,
+                            "code": 9431,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.wheecam.common.editiontype.EditionController.gotoMainActivity.(Landroid.content.Context;)V",
+                                    "value": 28,
+                                    "code": 2796,
+                                    "slowFlag": 0,
+                                    "children": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.wheecam.community.app.home.activity.CommunityHomeActivity.onCreate.(Landroid.os.Bundle;)V",
+            "value": 19,
+            "code": 9049,
+            "slowFlag": 0,
+            "children": null
+        },
+        {
+            "name": "com.meitu.wheecam.community.app.home.activity.CommunityHomeActivity.onStart.()V",
+            "value": 11476,
+            "code": 9055,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.wheecam.tool.camera.fragment.CameraFragment.onCreate.(Landroid.os.Bundle;)V",
+                    "value": 136,
+                    "code": 5263,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.wheecam.tool.camera.fragment.CameraFragment.createCamera.()Lcom.meitu.library.camera.MTCamera;",
+                            "value": 121,
+                            "code": 5282,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.wheecam.tool.camera.fragment.CameraFragment.initFocusManager.(Lcom.meitu.library.camera.MTCamera$Builder;)V",
+                                    "value": 6,
+                                    "code": 5284,
+                                    "slowFlag": 0,
+                                    "children": null
+                                },
+                                {
+                                    "name": "com.meitu.wheecam.tool.camera.render.component.ARComponentNodesBase.<clinit>.()V",
+                                    "value": 20,
+                                    "code": 2428,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.mtlab.arkernelinterface.core.ARKernelGlobalInterfaceJNI.setContext.(Landroid.content.Context;)V",
+                                            "value": 19,
+                                            "code": 37832,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.mtlab.arkernelinterface.ARKernelInterfaceNativeBasicClass.setContext.(Landroid.content.Context;)V",
+                                                    "value": 19,
+                                                    "code": 38162,
+                                                    "slowFlag": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "com.meitu.mtlab.arkernelinterface.ARKernelInterfaceNativeBasicClass.tryLoadLibrary.()V",
+                                                            "value": 19,
+                                                            "code": 38164,
+                                                            "slowFlag": 0,
+                                                            "children": [
+                                                                {
+                                                                    "name": "com.meitu.mtlab.arkernelinterface.ARKernelInterfaceNativeBasicClass.loadARKernelInterfaceLibrary.(Landroid.content.Context;)V",
+                                                                    "value": 19,
+                                                                    "code": 38163,
+                                                                    "slowFlag": 0,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "com.meitu.remote.hotfix.internal.TransformUtil.loadLibrary.(Ljava.lang.String;)V",
+                                                                            "value": 16,
+                                                                            "code": 231,
+                                                                            "slowFlag": 0,
+                                                                            "children": null
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "com.meitu.wheecam.tool.camera.vm.CameraFragmentViewModel.isSupportOpenGL3AndAbove.()Z",
+                                    "value": 39,
+                                    "code": 4129,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.wheecam.common.utils.AppDataManager.isEnvironmentSupportSkeleton.()Z",
+                                            "value": 39,
+                                            "code": 12630,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.core.realtimesegment.MTRealtimeSegmentGPU.<clinit>.()V",
+                                                    "value": 23,
+                                                    "code": 36385,
+                                                    "slowFlag": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "com.meitu.core.realtimesegment.MTRealtimeSegmentGPU.loadSegmentLibrary.(Landroid.content.Context;)V",
+                                                            "value": 23,
+                                                            "code": 36372,
+                                                            "slowFlag": 0,
+                                                            "children": [
+                                                                {
+                                                                    "name": "com.meitu.remote.hotfix.internal.TransformUtil.loadLibrary.(Ljava.lang.String;)V",
+                                                                    "value": 16,
+                                                                    "code": 231,
+                                                                    "slowFlag": 0,
+                                                                    "children": null
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "com.meitu.core.realtimesegment.MTRealtimeSegmentGPU.checkGL3Support.()Z",
+                                                    "value": 16,
+                                                    "code": 36375,
+                                                    "slowFlag": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "com.meitu.core.realtimesegment.MTRealtimeSegmentGPU.trySyncRunNativeMethod.(Ljava.lang.Runnable;)V",
+                                                            "value": 16,
+                                                            "code": 36378,
+                                                            "slowFlag": 0,
+                                                            "children": [
+                                                                {
+                                                                    "name": "com.meitu.core.realtimesegment.MTRealtimeSegmentGPU$3.run.()V",
+                                                                    "value": 16,
+                                                                    "code": 36370,
+                                                                    "slowFlag": 0,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "com.meitu.core.realtimesegment.MTRealtimeSegmentGPU.access$400.()Z",
+                                                                            "value": 12,
+                                                                            "code": 36383,
+                                                                            "slowFlag": 0,
+                                                                            "children": null
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "com.meitu.library.arcore.camera.MTArCoreCamera$Builder.build.()Lcom.meitu.library.arcore.camera.MTArCoreCamera;",
+                                    "value": 16,
+                                    "code": 24803,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.library.arcore.camera.a.a.(Landroid.content.Context;Lcom.meitu.library.arcore.camera.a$a;)V",
+                                            "value": 10,
+                                            "code": 24810,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.library.arcore.camera.a.a.(Landroid.content.Context;)Lcom.google.ar.core.ArCoreApk$Availability;",
+                                                    "value": 10,
+                                                    "code": 24818,
+                                                    "slowFlag": 0,
+                                                    "children": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "com.meitu.library.camera.MTCamera$Builder.build.()Lcom.meitu.library.camera.MTCamera;",
+                                    "value": 28,
+                                    "code": 26777,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.library.camera.MTCamera$Builder.buildBaseCamera.()Lcom.meitu.library.camera.basecamera.StateCamera;",
+                                            "value": 24,
+                                            "code": 26778,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.library.camera.util.MTCameraUtils.isSupportUseCamera2.(Landroid.content.Context;)Z",
+                                                    "value": 8,
+                                                    "code": 26231,
+                                                    "slowFlag": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "com.meitu.library.camera.util.MTCameraUtils.getSupportedHardwareLevel.(Landroid.content.Context;)I",
+                                                            "value": 8,
+                                                            "code": 26230,
+                                                            "slowFlag": 0,
+                                                            "children": null
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "com.meitu.library.camera.basecamera.v2.a.c.()V",
+                                                    "value": 12,
+                                                    "code": 27857,
+                                                    "slowFlag": 0,
+                                                    "children": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "com.meitu.library.arcore.swtich.MTArCoreCameraSwitchController.onCreate.(Landroid.os.Bundle;)V",
+                            "value": 13,
+                            "code": 24931,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.library.camera.b.onCreate.(Landroid.os.Bundle;)V",
+                                    "value": 13,
+                                    "code": 27269,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.library.camera.c.onCreate.(Landroid.os.Bundle;)V",
+                                            "value": 13,
+                                            "code": 28575,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.library.camera.util.MediaActionSoundHelper.loadCaptureSound.(Landroid.content.Context;)V",
+                                                    "value": 6,
+                                                    "code": 28100,
+                                                    "slowFlag": 0,
+                                                    "children": null
+                                                },
+                                                {
+                                                    "name": "com.meitu.library.camera.b.a.(Lcom.meitu.library.camera.MTCameraContainer;Landroid.os.Bundle;)V",
+                                                    "value": 7,
+                                                    "code": 27272,
+                                                    "slowFlag": 0,
+                                                    "children": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "com.meitu.wheecam.tool.camera.fragment.CameraFragment.onCreateView.",
+                    "value": 44,
+                    "code": 5264,
+                    "slowFlag": 0,
+                    "children": null
+                },
+                {
+                    "name": "com.meitu.wheecam.tool.camera.fragment.CameraUiFragment.onCreateView.",
+                    "value": 11264,
+                    "code": 4632,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.wheecam.tool.camera.fragment.CameraUiFragment.initFragmentLayout.(Landroid.view.View;Landroid.os.Bundle;)V",
+                            "value": 11209,
+                            "code": 4634,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.wheecam.tool.camera.vm.CameraUiFragmentViewModel.isShowTip.()Z",
+                                    "value": 11200,
+                                    "code": 6380,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.wheecam.tool.camera.vm.CameraUiFragmentViewModel.isInABTestShow.()Z",
+                                            "value": 11199,
+                                            "code": 6378,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.wheecam.common.statistic.abtest.ABTestingHelper.isInABTesting.",
+                                                    "value": 11198,
+                                                    "code": 14340,
+                                                    "slowFlag": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "com.meitu.library.abtesting.ABTestingManager.isInABTesting.",
+                                                            "value": 11198,
+                                                            "code": 23750,
+                                                            "slowFlag": 0,
+                                                            "children": [
+                                                                {
+                                                                    "name": "com.meitu.library.abtesting.ABTestingManager.isInABTesting.(Landroid.content.Context;I)Z",
+                                                                    "value": 11198,
+                                                                    "code": 23752,
+                                                                    "slowFlag": 0,
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "com.meitu.library.abtesting.ABTestingManager.isInABTesting.(Landroid.content.Context;IZ)Z",
+                                                                            "value": 11198,
+                                                                            "code": 23753,
+                                                                            "slowFlag": 0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "com.meitu.library.abtesting.ABTestingManager.getSessionalDataOrWaitUntilLoaded.()Lcom.meitu.library.abtesting.SessionalData;",
+                                                                                    "value": 11198,
+                                                                                    "code": 23767,
+                                                                                    "slowFlag": 1,
+                                                                                    "children": null
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "com.meitu.wheecam.tool.camera.fragment.CameraUiFragment.onStart.()V",
+                    "value": 24,
+                    "code": 4724,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.wheecam.tool.camera.fragment.CameraUiFragment.resetLayoutState.()V",
+                            "value": 11,
+                            "code": 4654,
+                            "slowFlag": 0,
+                            "children": null
+                        },
+                        {
+                            "name": "com.meitu.wheecam.tool.camera.fragment.CameraUiFragment.onTabScrolled.(IIIF)V",
+                            "value": 8,
+                            "code": 4645,
+                            "slowFlag": 0,
+                            "children": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.wheecam.tool.camera.fragment.CameraFragment.onResume.()V",
+            "value": 21,
+            "code": 5272,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.wheecam.tool.camera.fragment.CameraFragment.onStartCamera.()V",
+                    "value": 20,
+                    "code": 5275,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.library.arcore.swtich.MTArCoreCameraSwitchController.onStart.()V",
+                            "value": 20,
+                            "code": 24933,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.library.camera.b.onStart.()V",
+                                    "value": 20,
+                                    "code": 27275,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.library.camera.component.videorecorder.MTAudioProcessor.onStart.(Lcom.meitu.library.camera.MTCameraContainer;)V",
+                                            "value": 19,
+                                            "code": 25636,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.library.camera.component.videorecorder.MTAudioProcessor.startRecord.()V",
+                                                    "value": 19,
+                                                    "code": 25653,
+                                                    "slowFlag": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "com.meitu.library.camera.component.videorecorder.MTAudioProcessor.f.()V",
+                                                            "value": 19,
+                                                            "code": 25649,
+                                                            "slowFlag": 0,
+                                                            "children": null
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "com.meitu.wheecam.tool.album.ui.AlbumImageBucketFragment.onCreateView.",
+            "value": 16,
+            "code": 14056,
+            "slowFlag": 0,
+            "children": null
+        },
+        {
+            "name": "com.meitu.library.camera.MTCameraLayout.onSizeChanged.(IIII)V",
+            "value": -33,
+            "code": 26358,
+            "slowFlag": 0,
+            "children": [
+                {
+                    "name": "com.meitu.library.camera.MTCameraSurfaceRectHelper.a.(II)V",
+                    "value": -33,
+                    "code": 27823,
+                    "slowFlag": 0,
+                    "children": [
+                        {
+                            "name": "com.meitu.library.camera.MTCameraSurfaceRectHelper.a.(ZZ)V",
+                            "value": -33,
+                            "code": 27830,
+                            "slowFlag": 0,
+                            "children": [
+                                {
+                                    "name": "com.meitu.library.camera.MTCameraSurfaceRectHelper.a.(ZZZ)V",
+                                    "value": -33,
+                                    "code": 27831,
+                                    "slowFlag": 0,
+                                    "children": [
+                                        {
+                                            "name": "com.meitu.library.camera.b.onValidRectChanged.(Landroid.graphics.RectF;ZLandroid.graphics.Rect;ZLandroid.graphics.Rect;)V",
+                                            "value": -33,
+                                            "code": 27299,
+                                            "slowFlag": 0,
+                                            "children": [
+                                                {
+                                                    "name": "com.meitu.wheecam.tool.camera.render.component.ARComponentNodesBase.onValidRectChange.",
+                                                    "value": -33,
+                                                    "code": 2356,
+                                                    "slowFlag": 0,
+                                                    "children": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

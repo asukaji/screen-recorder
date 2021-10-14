@@ -1,17 +1,18 @@
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom';
 import { ConfigProvider } from 'antd';
 
 import locale from 'antd/es/locale/zh_CN';
 import 'normalize.css';
 import './index.less';
-import Recorder from './Recorder';
+// import Recorder from './Recorder';
+import FlameGraph from './FlameGraph';
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <ConfigProvider locale={locale}>
-    <Recorder />
+    <FlameGraph />
   </ConfigProvider>,
   document.getElementById('root')
 );
