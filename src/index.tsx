@@ -5,14 +5,15 @@ import { ConfigProvider } from 'antd';
 import locale from 'antd/es/locale/zh_CN';
 import 'normalize.css';
 import './index.less';
-// import Recorder from './Recorder';
-import FlameGraph from './FlameGraph';
+// import Recorder from "./Recorder";
+// import FlameGraph from "./FlameGraph";
+import MemoryGraph from './MemoryGraph';
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <ConfigProvider locale={locale}>
-    <FlameGraph />
+    <MemoryGraph />
   </ConfigProvider>,
   document.getElementById('root')
 );
