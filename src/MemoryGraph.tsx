@@ -1,6 +1,7 @@
-import G6, { Graph, IG6GraphEvent } from '@antv/g6';
+import G6, { Graph, IG6GraphEvent, NodeConfig } from '@antv/g6';
 import Node from './Node';
 import ArrowEdge from './ArrowEdge';
+import ZoomHandler from './ZoomHandler';
 
 import { useRef, useEffect, useState } from 'react';
 
@@ -13,7 +14,7 @@ interface Model {
 }
 
 G6.registerNode('object', Node);
-G6.registerEdge('arrowEdge', ArrowEdge, 'polyline');
+G6.registerEdge('arrowEdge', ArrowEdge);
 
 export default function MemoryGraph() {
   const graphRef = useRef<HTMLDivElement>(null);
@@ -37,12 +38,13 @@ export default function MemoryGraph() {
       fitCenter: true,
       animate: false,
       linkCenter: true,
+      plugins: [ZoomHandler()],
       modes: {
-        default: ['drag-canvas', 'click-select', 'zoom-canvas'],
+        default: ['drag-canvas', 'click-select'],
       },
       layout: {
         type: 'mindmap',
-        direction: 'RL',
+        direction: 'H',
         getHeight: () => {
           return 20;
         },
@@ -54,6 +56,9 @@ export default function MemoryGraph() {
         },
         getHGap: () => {
           return 100;
+        },
+        getSide: ({ id }: NodeConfig) => {
+          return id === '10774766256' ? 'left' : 'right';
         },
       },
       defaultNode: {
@@ -114,7 +119,10 @@ export default function MemoryGraph() {
 
   return (
     <div ref={graphRef}>
-      <div>{model?.label}</div>
+      <div>
+        {model?.label}
+        {model?.id}
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
-import { ModelConfig, GraphOptions } from '@antv/g6';
+import { ModelConfig, IGroup, IShape } from '@antv/g6';
 
 interface cfg extends ModelConfig {
-  id: string;
+  id?: string;
   isActive?: boolean;
 }
 
@@ -17,19 +17,40 @@ const arrowEdge = {
     ];
   },
 
-  getShapeStyle(cfg: cfg): GraphOptions['defaultEdge'] {
+  draw(cfg?: cfg, group?: IGroup) {
+    if (!cfg || !group) {
+      return {} as IShape;
+    }
+
     const { startPoint, endPoint } = cfg;
-    const points = [startPoint, endPoint];
 
-    const path = this.getPath(points);
+    if (!startPoint || !endPoint) {
+      return {} as IShape;
+    }
 
-    return {
-      stroke: '#BBB',
-      lineWidth: 1,
-      path,
-      startArrow: true,
-      endArrow: true,
-    };
+    const path = this.getPath([startPoint, endPoint]);
+
+    const shape = group.addShape('path', {
+      attrs: {
+        stroke: '#BBB',
+        path,
+        startArrow: true,
+        endArrow: true,
+      },
+      name: 'path-shape',
+    });
+
+    group.addShape('text', {
+      attrs: {
+        text: '2222',
+        fill: '#BBB',
+        x: endPoint.x + 64,
+        y: endPoint.y - 12,
+      },
+      name: 'left-text-shape',
+    });
+
+    return shape;
   },
 };
 
