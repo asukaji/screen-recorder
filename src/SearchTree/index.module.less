@@ -1,0 +1,31 @@
+@import '~antd/es/style/themes/default';
+
+.container {
+  width: 256px;
+  padding: @padding-sm @padding-xs;
+  background-color: #fafafa;
+
+  :local .input {
+    margin-bottom: @padding-md;
+  }
+
+  :local .tree {
+    height: calc(100% - 48px);
+    overflow: hidden;
+  }
+
+  :global .@{ant-prefix}-tree {
+    height: calc(100% - 44px);
+    overflow-y: auto;
+    background-color: transparent;
+
+    .@{ant-prefix}-tree-title {
+      font-size: @font-size-sm;
+      word-break: break-all;
+    }
+
+    .@{ant-prefix}-tree-switcher {
+      background-color: transparent !important;
+    }
+  }
+}

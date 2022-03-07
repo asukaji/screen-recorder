@@ -1,0 +1,362 @@
+[
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800959040,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800960960,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800961200,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800961440,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800961680,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800961920,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800962160,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800962400,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800962640,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800962880,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800963120,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800963360,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800963600,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800963840,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800964080,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800964320,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800964560,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10800964800,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10802357920,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10802360464,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10802360704,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10802360944,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10802361184,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "image": 0,
+    "vmTag": "MALLOC_NANO",
+    "address": 10802361424,
+    "imageName": "",
+    "ref_by": [
+      {
+        "address": 10791442720,
+        "name": "=>"
+      }
+    ],
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  }
+]

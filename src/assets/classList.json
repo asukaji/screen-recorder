@@ -1,0 +1,3907 @@
+[
+  {
+    "size": 164640,
+    "count": 343,
+    "className": "UIImageView"
+  },
+  {
+    "size": 117056,
+    "count": 1829,
+    "className": "NSISRestrictedToZeroMarkerVariable"
+  },
+  {
+    "size": 105840,
+    "count": 1323,
+    "className": "NSLayoutConstraint"
+  },
+  {
+    "size": 83088,
+    "count": 1731,
+    "className": "__NSArrayM"
+  },
+  {
+    "size": 81984,
+    "count": 1708,
+    "className": "NSISVariableObservation"
+  },
+  {
+    "size": 75440,
+    "count": 205,
+    "className": "UIView"
+  },
+  {
+    "size": 64032,
+    "count": 87,
+    "className": "UILabel"
+  },
+  {
+    "size": 63104,
+    "count": 986,
+    "className": "NSISUnrestrictedVariable"
+  },
+  {
+    "size": 62016,
+    "count": 969,
+    "className": "NSISRestrictedToNonNegativeVariable"
+  },
+  {
+    "size": 58048,
+    "count": 907,
+    "className": "NSLayoutXAxisAnchor"
+  },
+  {
+    "size": 54528,
+    "count": 852,
+    "className": "NSLayoutDimension"
+  },
+  {
+    "size": 50432,
+    "count": 788,
+    "className": "NSLayoutYAxisAnchor"
+  },
+  {
+    "size": 48384,
+    "count": 504,
+    "className": "NSContentSizeLayoutConstraint"
+  },
+  {
+    "size": 45344,
+    "count": 218,
+    "className": "_UIImageViewExtendedStorage"
+  },
+  {
+    "size": 38720,
+    "count": 55,
+    "className": "UIButton"
+  },
+  {
+    "size": 34800,
+    "count": 75,
+    "className": "UILongPressGestureRecognizer"
+  },
+  {
+    "size": 34752,
+    "count": 362,
+    "className": "MASLayoutConstraint"
+  },
+  {
+    "size": 34752,
+    "count": 362,
+    "className": "MASViewConstraint"
+  },
+  {
+    "size": 33472,
+    "count": 523,
+    "className": "NSISRestrictedToNonNegativeMarkerVariableToBeMinimized"
+  },
+  {
+    "size": 33472,
+    "count": 523,
+    "className": "NSISRestrictedToNonNegativeVariableToBeMinimized"
+  },
+  {
+    "size": 32032,
+    "count": 143,
+    "className": "UITapRecognizer"
+  },
+  {
+    "size": 31360,
+    "count": 70,
+    "className": "NSISEngine"
+  },
+  {
+    "size": 23040,
+    "count": 15,
+    "className": "MTDebugOptionsViewCell"
+  },
+  {
+    "size": 22464,
+    "count": 468,
+    "className": "_UIViewLayoutEngineRelativeAlignmentRectOriginCache"
+  },
+  {
+    "size": 22080,
+    "count": 30,
+    "className": "UISegmentLabel"
+  },
+  {
+    "size": 21280,
+    "count": 266,
+    "className": "NSAutoresizingMaskLayoutConstraint"
+  },
+  {
+    "size": 19616,
+    "count": 613,
+    "className": "MASViewAttribute"
+  },
+  {
+    "size": 19552,
+    "count": 26,
+    "className": "UIButtonLabel"
+  },
+  {
+    "size": 18720,
+    "count": 30,
+    "className": "UISegment"
+  },
+  {
+    "size": 14592,
+    "count": 114,
+    "className": "FLEXProperty"
+  },
+  {
+    "size": 14464,
+    "count": 226,
+    "className": "UIGestureGraphNode"
+  },
+  {
+    "size": 14336,
+    "count": 4,
+    "className": "UICollectionView"
+  },
+  {
+    "size": 13680,
+    "count": 171,
+    "className": "GPBFieldDescriptor"
+  },
+  {
+    "size": 13184,
+    "count": 357,
+    "className": "__NSArrayI"
+  },
+  {
+    "size": 12768,
+    "count": 114,
+    "className": "FLEXPropertyAttributes"
+  },
+  {
+    "size": 11440,
+    "count": 55,
+    "className": "SnapKit.Constraint"
+  },
+  {
+    "size": 10960,
+    "count": 137,
+    "className": "NSISObjectiveLinearExpression"
+  },
+  {
+    "size": 10752,
+    "count": 16,
+    "className": "MTPhotoAssetsViewCell"
+  },
+  {
+    "size": 10656,
+    "count": 37,
+    "className": "UITapGestureRecognizer"
+  },
+  {
+    "size": 10560,
+    "count": 22,
+    "className": "UIScrollViewKnobLongPressGestureRecognizer"
+  },
+  {
+    "size": 9216,
+    "count": 288,
+    "className": "__NSDictionaryM"
+  },
+  {
+    "size": 8736,
+    "count": 21,
+    "className": "UIPanGestureRecognizer"
+  },
+  {
+    "size": 8640,
+    "count": 15,
+    "className": "UISegmentedControl"
+  },
+  {
+    "size": 8400,
+    "count": 15,
+    "className": "UISwitchModernVisualElement"
+  },
+  {
+    "size": 7904,
+    "count": 19,
+    "className": "UITableViewCellContentView"
+  },
+  {
+    "size": 7680,
+    "count": 15,
+    "className": "UISwitch"
+  },
+  {
+    "size": 7520,
+    "count": 235,
+    "className": "UIGestureRecognizerTarget"
+  },
+  {
+    "size": 7168,
+    "count": 2,
+    "className": "UITableView"
+  },
+  {
+    "size": 6720,
+    "count": 70,
+    "className": "UIButtonLegacyVisualProvider"
+  },
+  {
+    "size": 6720,
+    "count": 70,
+    "className": "SnapKit.LayoutConstraint"
+  },
+  {
+    "size": 6656,
+    "count": 104,
+    "className": "_NSAutoresizingMaskXAxisAnchor"
+  },
+  {
+    "size": 6528,
+    "count": 102,
+    "className": "_NSAutoresizingMaskYAxisAnchor"
+  },
+  {
+    "size": 6144,
+    "count": 3,
+    "className": "UIScrollView"
+  },
+  {
+    "size": 6144,
+    "count": 4,
+    "className": "MTHMonitorViewCell"
+  },
+  {
+    "size": 6016,
+    "count": 8,
+    "className": "SelfieCity.MSCFilterSelectViewFilterCell"
+  },
+  {
+    "size": 5760,
+    "count": 8,
+    "className": "MSCSimpleButton"
+  },
+  {
+    "size": 5632,
+    "count": 11,
+    "className": "UIScrollViewPanGestureRecognizer"
+  },
+  {
+    "size": 5440,
+    "count": 170,
+    "className": "MTHawkeyeNetworkInternalRequestState"
+  },
+  {
+    "size": 5376,
+    "count": 112,
+    "className": "UIControlTargetAction"
+  },
+  {
+    "size": 5376,
+    "count": 14,
+    "className": "__NSURLSessionLocal"
+  },
+  {
+    "size": 4960,
+    "count": 155,
+    "className": "__NSSetM"
+  },
+  {
+    "size": 4928,
+    "count": 22,
+    "className": "UILayoutGuide"
+  },
+  {
+    "size": 4896,
+    "count": 17,
+    "className": "UIHoverGestureRecognizer"
+  },
+  {
+    "size": 4608,
+    "count": 9,
+    "className": "MTCustomSlider"
+  },
+  {
+    "size": 4608,
+    "count": 36,
+    "className": "UITableCellAccessoryLayout"
+  },
+  {
+    "size": 4608,
+    "count": 3,
+    "className": "_UISheetLayoutInfo"
+  },
+  {
+    "size": 4256,
+    "count": 7,
+    "className": "MSCGridPhotoTypeSelectViewCell"
+  },
+  {
+    "size": 4224,
+    "count": 33,
+    "className": "FLEXMethod"
+  },
+  {
+    "size": 4160,
+    "count": 10,
+    "className": "_UIFlowLayoutSection"
+  },
+  {
+    "size": 4128,
+    "count": 43,
+    "className": "MTCPPropertyInfo"
+  },
+  {
+    "size": 3648,
+    "count": 19,
+    "className": "UICellAccessoryManager"
+  },
+  {
+    "size": 3584,
+    "count": 1,
+    "className": "MTCollectionView"
+  },
+  {
+    "size": 3584,
+    "count": 1,
+    "className": "MSCGridPhotoTypeSelectView"
+  },
+  {
+    "size": 3520,
+    "count": 110,
+    "className": "SnapKit.ConstraintItem"
+  },
+  {
+    "size": 3360,
+    "count": 5,
+    "className": "MSCARMaterialCell"
+  },
+  {
+    "size": 3168,
+    "count": 11,
+    "className": "_UIZoomEdgeFeedbackGenerator"
+  },
+  {
+    "size": 3120,
+    "count": 5,
+    "className": "SelfieCity.MSCFilterSelectViewCategoryCell"
+  },
+  {
+    "size": 3072,
+    "count": 2,
+    "className": "NSKVONotifying_UINavigationController"
+  },
+  {
+    "size": 2992,
+    "count": 11,
+    "className": "UIScrollViewDelayedTouchesBeganGestureRecognizer"
+  },
+  {
+    "size": 2880,
+    "count": 5,
+    "className": "UICollectionViewFlowLayout"
+  },
+  {
+    "size": 2880,
+    "count": 4,
+    "className": "_UITableCellAccessoryButton"
+  },
+  {
+    "size": 2880,
+    "count": 6,
+    "className": "UIDimmingView"
+  },
+  {
+    "size": 2816,
+    "count": 11,
+    "className": "_UIDragAutoScrollGestureRecognizer"
+  },
+  {
+    "size": 2688,
+    "count": 6,
+    "className": "_UIMultiSelectOneFingerPanGesture"
+  },
+  {
+    "size": 2640,
+    "count": 55,
+    "className": "NSKeyValueObservance"
+  },
+  {
+    "size": 2400,
+    "count": 30,
+    "className": "MTDebugOptionEntity"
+  },
+  {
+    "size": 2400,
+    "count": 15,
+    "className": "UIImpactFeedbackGenerator"
+  },
+  {
+    "size": 2304,
+    "count": 24,
+    "className": "UIPointerInteraction"
+  },
+  {
+    "size": 2240,
+    "count": 35,
+    "className": "MTHANRMainThreadStallingSnapshot"
+  },
+  {
+    "size": 2176,
+    "count": 4,
+    "className": "Alamofire.SessionDelegate"
+  },
+  {
+    "size": 2048,
+    "count": 16,
+    "className": "MSCGridPhotoTypeInfo"
+  },
+  {
+    "size": 2048,
+    "count": 1,
+    "className": "NSKVONotifying_MSCCameraViewController"
+  },
+  {
+    "size": 1984,
+    "count": 31,
+    "className": "GPBDescriptor"
+  },
+  {
+    "size": 1968,
+    "count": 3,
+    "className": "_UINavigationBarContentView"
+  },
+  {
+    "size": 1920,
+    "count": 5,
+    "className": "DACircularProgressView"
+  },
+  {
+    "size": 1920,
+    "count": 40,
+    "className": "MTPhotoAlbum"
+  },
+  {
+    "size": 1872,
+    "count": 3,
+    "className": "SelfieCity.MSCCaptureTypeSelectorCell"
+  },
+  {
+    "size": 1792,
+    "count": 16,
+    "className": "MTCameraTimingStat"
+  },
+  {
+    "size": 1792,
+    "count": 16,
+    "className": "MTPhotoAsset"
+  },
+  {
+    "size": 1776,
+    "count": 3,
+    "className": "UINavigationBar"
+  },
+  {
+    "size": 1728,
+    "count": 6,
+    "className": "_UISingleFingerTapExtensionGesture"
+  },
+  {
+    "size": 1632,
+    "count": 3,
+    "className": "UIDropShadowView"
+  },
+  {
+    "size": 1632,
+    "count": 6,
+    "className": "_UISystemGestureGateGestureRecognizer"
+  },
+  {
+    "size": 1584,
+    "count": 3,
+    "className": "_UIRootPresentationController"
+  },
+  {
+    "size": 1536,
+    "count": 1,
+    "className": "NSKVONotifying_AVCaptureFigVideoDevice"
+  },
+  {
+    "size": 1536,
+    "count": 1,
+    "className": "NSKVONotifying_UIInputWindowController"
+  },
+  {
+    "size": 1536,
+    "count": 1,
+    "className": "NSKVONotifying_MSCInteractivePopNavigationController"
+  },
+  {
+    "size": 1440,
+    "count": 3,
+    "className": "_UINavigationBarLargeTitleView"
+  },
+  {
+    "size": 1440,
+    "count": 6,
+    "className": "UICollectionViewData"
+  },
+  {
+    "size": 1408,
+    "count": 2,
+    "className": "BaseCommonADView"
+  },
+  {
+    "size": 1392,
+    "count": 3,
+    "className": "_UIParallaxTransitionPanGestureRecognizer"
+  },
+  {
+    "size": 1344,
+    "count": 3,
+    "className": "UITransitionView"
+  },
+  {
+    "size": 1344,
+    "count": 3,
+    "className": "_UINavigationBarContentViewLayout"
+  },
+  {
+    "size": 1296,
+    "count": 27,
+    "className": "_UIPointerInteractionHoverDriver"
+  },
+  {
+    "size": 1296,
+    "count": 3,
+    "className": "UINavigationTransitionView"
+  },
+  {
+    "size": 1296,
+    "count": 3,
+    "className": "UINavigationItem"
+  },
+  {
+    "size": 1280,
+    "count": 8,
+    "className": "_UIDragSnappingFeedbackGenerator"
+  },
+  {
+    "size": 1200,
+    "count": 5,
+    "className": "UIFocusContainerGuide"
+  },
+  {
+    "size": 1200,
+    "count": 3,
+    "className": "UILayoutContainerView"
+  },
+  {
+    "size": 1152,
+    "count": 3,
+    "className": "UISwipeGestureRecognizer"
+  },
+  {
+    "size": 1152,
+    "count": 24,
+    "className": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "size": 1152,
+    "count": 3,
+    "className": "SelfieCity.MSCIconCustomSlider"
+  },
+  {
+    "size": 1152,
+    "count": 3,
+    "className": "UIViewControllerWrapperView"
+  },
+  {
+    "size": 1056,
+    "count": 6,
+    "className": "_UICollectionViewDragAndDropController"
+  },
+  {
+    "size": 1056,
+    "count": 33,
+    "className": "MTHUserDefaultsObserverInfo"
+  },
+  {
+    "size": 1024,
+    "count": 2,
+    "className": "_UIBarBackgroundShadowContentImageView"
+  },
+  {
+    "size": 1024,
+    "count": 32,
+    "className": "MTCameraHookMessage"
+  },
+  {
+    "size": 1008,
+    "count": 9,
+    "className": "_UIFlowLayoutRow"
+  },
+  {
+    "size": 1008,
+    "count": 1,
+    "className": "UITextEffectsWindow"
+  },
+  {
+    "size": 1008,
+    "count": 1,
+    "className": "NSKVONotifying_MTPhotoAssetsViewController"
+  },
+  {
+    "size": 992,
+    "count": 31,
+    "className": "MTCameraHookMethod"
+  },
+  {
+    "size": 960,
+    "count": 15,
+    "className": "__NSCFURLSessionDelegateWrapper"
+  },
+  {
+    "size": 960,
+    "count": 2,
+    "className": "_UIBarBackgroundShadowView"
+  },
+  {
+    "size": 960,
+    "count": 20,
+    "className": "PHTPhenotypeConfigurationFlag"
+  },
+  {
+    "size": 960,
+    "count": 30,
+    "className": "MTDebugOptionHandler"
+  },
+  {
+    "size": 960,
+    "count": 15,
+    "className": "UISwitchMVEGestureTrackingSession"
+  },
+  {
+    "size": 960,
+    "count": 6,
+    "className": "_UIFlowLayoutInfo"
+  },
+  {
+    "size": 960,
+    "count": 2,
+    "className": "_UIBarBackground"
+  },
+  {
+    "size": 960,
+    "count": 3,
+    "className": "_UINavigationInteractiveTransition"
+  },
+  {
+    "size": 928,
+    "count": 1,
+    "className": "NSKVONotifying_MTDebugOptionsViewController"
+  },
+  {
+    "size": 928,
+    "count": 1,
+    "className": "NSKVONotifying_MTImagePickerController"
+  },
+  {
+    "size": 912,
+    "count": 3,
+    "className": "AVCaptureConnectionInternal"
+  },
+  {
+    "size": 912,
+    "count": 1,
+    "className": "__NSCFLocalDataTask"
+  },
+  {
+    "size": 912,
+    "count": 19,
+    "className": "__NSCFSet"
+  },
+  {
+    "size": 896,
+    "count": 1,
+    "className": "NSKVONotifying_UIEditingOverlayViewController"
+  },
+  {
+    "size": 896,
+    "count": 1,
+    "className": "NSKVONotifying_MSCStartupViewController"
+  },
+  {
+    "size": 896,
+    "count": 1,
+    "className": "NSKVONotifying_MTHawkeyeFloatingWidgetViewController"
+  },
+  {
+    "size": 864,
+    "count": 1,
+    "className": "NSKVONotifying_UIViewController"
+  },
+  {
+    "size": 832,
+    "count": 13,
+    "className": "NSISRestrictedToNonNegativeMarkerVariable"
+  },
+  {
+    "size": 832,
+    "count": 2,
+    "className": "_UIScrollViewScrollIndicator"
+  },
+  {
+    "size": 832,
+    "count": 2,
+    "className": "_UISwipeActionPanGestureRecognizer"
+  },
+  {
+    "size": 816,
+    "count": 17,
+    "className": "MSCARMaterialModel"
+  },
+  {
+    "size": 816,
+    "count": 17,
+    "className": "CALayerArray"
+  },
+  {
+    "size": 800,
+    "count": 1,
+    "className": "NSKVONotifying_MTHToastWindow"
+  },
+  {
+    "size": 800,
+    "count": 1,
+    "className": "MPButton"
+  },
+  {
+    "size": 800,
+    "count": 5,
+    "className": "NSFetchedResultsController"
+  },
+  {
+    "size": 800,
+    "count": 1,
+    "className": "UIWindow"
+  },
+  {
+    "size": 800,
+    "count": 2,
+    "className": "UIPinchGestureRecognizer"
+  },
+  {
+    "size": 800,
+    "count": 1,
+    "className": "MTHFloatingMonitorWindow"
+  },
+  {
+    "size": 768,
+    "count": 24,
+    "className": "NSKeyValueObservationInfo"
+  },
+  {
+    "size": 768,
+    "count": 6,
+    "className": "UIMultiSelectInteraction"
+  },
+  {
+    "size": 752,
+    "count": 1,
+    "className": "MTCameraView"
+  },
+  {
+    "size": 752,
+    "count": 1,
+    "className": "MTDebugOptionsDragableButton"
+  },
+  {
+    "size": 736,
+    "count": 1,
+    "className": "_UIModernBarButton"
+  },
+  {
+    "size": 720,
+    "count": 1,
+    "className": "MTBSplashAdView"
+  },
+  {
+    "size": 720,
+    "count": 15,
+    "className": "UIGestureGraphEdge"
+  },
+  {
+    "size": 720,
+    "count": 1,
+    "className": "SelfieCity.MSCFilterSelectView"
+  },
+  {
+    "size": 704,
+    "count": 1,
+    "className": "MSCCameraDeleteButton"
+  },
+  {
+    "size": 704,
+    "count": 1,
+    "className": "MLabBeautyFilter"
+  },
+  {
+    "size": 672,
+    "count": 6,
+    "className": "UIBandSelectionInteraction"
+  },
+  {
+    "size": 672,
+    "count": 2,
+    "className": "_UINavigationBarLayout"
+  },
+  {
+    "size": 672,
+    "count": 1,
+    "className": "MLabSharpnessFilter"
+  },
+  {
+    "size": 672,
+    "count": 7,
+    "className": "FLEXIvar"
+  },
+  {
+    "size": 656,
+    "count": 1,
+    "className": "MSCARFilter"
+  },
+  {
+    "size": 656,
+    "count": 1,
+    "className": "MPVolumeSlider"
+  },
+  {
+    "size": 624,
+    "count": 3,
+    "className": "MTCameraFramebuffer"
+  },
+  {
+    "size": 624,
+    "count": 1,
+    "className": "MTCamera"
+  },
+  {
+    "size": 576,
+    "count": 1,
+    "className": "MTPhotoAssetsViewLayout"
+  },
+  {
+    "size": 576,
+    "count": 9,
+    "className": "_UIFlowLayoutItem"
+  },
+  {
+    "size": 576,
+    "count": 1,
+    "className": "SelfieCity.MSCCameraPreviewContainer"
+  },
+  {
+    "size": 576,
+    "count": 3,
+    "className": "_UINavigationBarVisualProviderModernIOS"
+  },
+  {
+    "size": 560,
+    "count": 1,
+    "className": "MSCAnimateImageView"
+  },
+  {
+    "size": 544,
+    "count": 2,
+    "className": "_UISwipeDismissalGestureRecognizer"
+  },
+  {
+    "size": 544,
+    "count": 1,
+    "className": "CollageGridView"
+  },
+  {
+    "size": 544,
+    "count": 34,
+    "className": "__NSSingleObjectArrayI"
+  },
+  {
+    "size": 544,
+    "count": 1,
+    "className": "MLabDarkCornerFilter"
+  },
+  {
+    "size": 528,
+    "count": 1,
+    "className": "MLabEffectFilter"
+  },
+  {
+    "size": 528,
+    "count": 1,
+    "className": "MSCCameraSettingView"
+  },
+  {
+    "size": 512,
+    "count": 1,
+    "className": "MSCARMaterialSelectView"
+  },
+  {
+    "size": 496,
+    "count": 1,
+    "className": "SelfieCity.MSCThinBodyView"
+  },
+  {
+    "size": 496,
+    "count": 1,
+    "className": "_UISlideriOSVisualElement"
+  },
+  {
+    "size": 480,
+    "count": 1,
+    "className": "MTComCamera"
+  },
+  {
+    "size": 480,
+    "count": 6,
+    "className": "_UICollectionViewOrthogonalScrollerSectionController"
+  },
+  {
+    "size": 480,
+    "count": 1,
+    "className": "MTCameraFocusView"
+  },
+  {
+    "size": 480,
+    "count": 1,
+    "className": "UIKBProductivityPanGestureRecognizer"
+  },
+  {
+    "size": 480,
+    "count": 1,
+    "className": "_UIButtonBarButton"
+  },
+  {
+    "size": 480,
+    "count": 1,
+    "className": "UIVisualEffectView"
+  },
+  {
+    "size": 480,
+    "count": 2,
+    "className": "UIPhysicalKeyboardEvent"
+  },
+  {
+    "size": 464,
+    "count": 1,
+    "className": "SelfieCity.MSCBeautyView"
+  },
+  {
+    "size": 464,
+    "count": 1,
+    "className": "UIKBProductivityLongPressGestureRecognizer"
+  },
+  {
+    "size": 448,
+    "count": 1,
+    "className": "DZNEmptyDataSetView"
+  },
+  {
+    "size": 448,
+    "count": 1,
+    "className": "CameraFocusView"
+  },
+  {
+    "size": 448,
+    "count": 14,
+    "className": "MTHURLSessionDelegateProxy"
+  },
+  {
+    "size": 448,
+    "count": 1,
+    "className": "MPVolumeView"
+  },
+  {
+    "size": 448,
+    "count": 4,
+    "className": "Alamofire.SessionManager"
+  },
+  {
+    "size": 432,
+    "count": 1,
+    "className": "_UITAMICAdaptorView"
+  },
+  {
+    "size": 432,
+    "count": 1,
+    "className": "AVCapturePhotoOutputInternal"
+  },
+  {
+    "size": 432,
+    "count": 1,
+    "className": "MSCCameraButton"
+  },
+  {
+    "size": 432,
+    "count": 1,
+    "className": "MSCCameraTopBar"
+  },
+  {
+    "size": 432,
+    "count": 27,
+    "className": "_NSKVODeallocSentinel"
+  },
+  {
+    "size": 432,
+    "count": 1,
+    "className": "NSKVONotifying_UIApplication"
+  },
+  {
+    "size": 416,
+    "count": 1,
+    "className": "UIInputSetContainerView"
+  },
+  {
+    "size": 416,
+    "count": 13,
+    "className": "AVRetainReleaseWeakReference"
+  },
+  {
+    "size": 416,
+    "count": 1,
+    "className": "_UIVisualEffectBackdropView"
+  },
+  {
+    "size": 416,
+    "count": 1,
+    "className": "SelfieCity.MSCCaptureTypeSelectorView"
+  },
+  {
+    "size": 416,
+    "count": 1,
+    "className": "UIKBProductivityPinchGestureRecognizer"
+  },
+  {
+    "size": 416,
+    "count": 1,
+    "className": "SelfieCity.MSCFishEyeSwitch"
+  },
+  {
+    "size": 416,
+    "count": 1,
+    "className": "_UIButtonBarStackView"
+  },
+  {
+    "size": 400,
+    "count": 5,
+    "className": "_UIPreviewInteractionForceLevelClassifier"
+  },
+  {
+    "size": 400,
+    "count": 1,
+    "className": "GridPhotoCameraMaskView"
+  },
+  {
+    "size": 400,
+    "count": 1,
+    "className": "FilterThumbControl"
+  },
+  {
+    "size": 400,
+    "count": 5,
+    "className": "_NSDefaultSectionInfo"
+  },
+  {
+    "size": 400,
+    "count": 1,
+    "className": "MTHMonitorView"
+  },
+  {
+    "size": 400,
+    "count": 1,
+    "className": "UIBarButtonItem"
+  },
+  {
+    "size": 384,
+    "count": 3,
+    "className": "_UINavigationBarLargeTitleViewLayout"
+  },
+  {
+    "size": 384,
+    "count": 1,
+    "className": "UIEditingOverlayGestureView"
+  },
+  {
+    "size": 384,
+    "count": 4,
+    "className": "_UIWindowAnchoringConstraint"
+  },
+  {
+    "size": 384,
+    "count": 2,
+    "className": "UITableViewRowData"
+  },
+  {
+    "size": 384,
+    "count": 6,
+    "className": "_UICollectionViewSectionFocusGuideController"
+  },
+  {
+    "size": 384,
+    "count": 1,
+    "className": "MSCVideoProgressView"
+  },
+  {
+    "size": 384,
+    "count": 1,
+    "className": "MTCameraControl"
+  },
+  {
+    "size": 384,
+    "count": 8,
+    "className": "FBSDKErrorRecoveryConfiguration"
+  },
+  {
+    "size": 384,
+    "count": 3,
+    "className": "MTCameraCountingStat"
+  },
+  {
+    "size": 384,
+    "count": 8,
+    "className": "_UIWindowTransformLayer"
+  },
+  {
+    "size": 384,
+    "count": 1,
+    "className": "CollageGridItem1R1CView"
+  },
+  {
+    "size": 384,
+    "count": 12,
+    "className": "MTHFakeKVORemover"
+  },
+  {
+    "size": 384,
+    "count": 1,
+    "className": "SelfieCity.MSCFilterSelectViewContainer"
+  },
+  {
+    "size": 384,
+    "count": 1,
+    "className": "SelfieCity.MSCARActionTipsView"
+  },
+  {
+    "size": 384,
+    "count": 3,
+    "className": "AVCaptureOutputInternal"
+  },
+  {
+    "size": 384,
+    "count": 1,
+    "className": "SelfieCity.MSCARFaceDetectionTipsView"
+  },
+  {
+    "size": 384,
+    "count": 8,
+    "className": "UIWindowLayer"
+  },
+  {
+    "size": 368,
+    "count": 1,
+    "className": "UIInputSetHostView"
+  },
+  {
+    "size": 368,
+    "count": 1,
+    "className": "UICollectionViewControllerWrapperView"
+  },
+  {
+    "size": 368,
+    "count": 1,
+    "className": "UIWindowScene"
+  },
+  {
+    "size": 352,
+    "count": 2,
+    "className": "BSXPCServiceConnectionEventHandler"
+  },
+  {
+    "size": 352,
+    "count": 1,
+    "className": "_UIGameControllerEvent"
+  },
+  {
+    "size": 352,
+    "count": 1,
+    "className": "MTGDeviceInfo"
+  },
+  {
+    "size": 352,
+    "count": 11,
+    "className": "GPBFileDescriptor"
+  },
+  {
+    "size": 336,
+    "count": 3,
+    "className": "_UIPointerInteractionAssistant"
+  },
+  {
+    "size": 320,
+    "count": 5,
+    "className": "GPBEnumDescriptor"
+  },
+  {
+    "size": 320,
+    "count": 1,
+    "className": "BeautyFilterTool"
+  },
+  {
+    "size": 320,
+    "count": 5,
+    "className": "_NSObservingObservation"
+  },
+  {
+    "size": 304,
+    "count": 1,
+    "className": "UIUndoGestureInteraction"
+  },
+  {
+    "size": 288,
+    "count": 1,
+    "className": "UIKBProductivityDoubleTapGesture"
+  },
+  {
+    "size": 288,
+    "count": 2,
+    "className": "BSXPCServiceConnection"
+  },
+  {
+    "size": 288,
+    "count": 6,
+    "className": "_UISelectionBandVisualProvider_iOS"
+  },
+  {
+    "size": 288,
+    "count": 6,
+    "className": "_UICollectionViewMultiSelectController"
+  },
+  {
+    "size": 288,
+    "count": 6,
+    "className": "CMLBlock"
+  },
+  {
+    "size": 288,
+    "count": 6,
+    "className": "MTHANRRecord"
+  },
+  {
+    "size": 288,
+    "count": 6,
+    "className": "MTAppCIAEventModel"
+  },
+  {
+    "size": 288,
+    "count": 6,
+    "className": "__NSFrozenArrayM"
+  },
+  {
+    "size": 288,
+    "count": 2,
+    "className": "UISectionRowData"
+  },
+  {
+    "size": 288,
+    "count": 1,
+    "className": "MTAnalyticsAppBasic"
+  },
+  {
+    "size": 288,
+    "count": 1,
+    "className": "UIKBProductivitySingleTapGesture"
+  },
+  {
+    "size": 272,
+    "count": 1,
+    "className": "UIInputWindowControllerHostingItem"
+  },
+  {
+    "size": 256,
+    "count": 1,
+    "className": "CCTClearcutUploader"
+  },
+  {
+    "size": 256,
+    "count": 1,
+    "className": "UIEventFetcher"
+  },
+  {
+    "size": 256,
+    "count": 2,
+    "className": "UIPressesEvent"
+  },
+  {
+    "size": 256,
+    "count": 4,
+    "className": "__NSDictionaryI"
+  },
+  {
+    "size": 256,
+    "count": 1,
+    "className": "_UIEdgeFeedbackGenerator"
+  },
+  {
+    "size": 256,
+    "count": 1,
+    "className": "MTBaseModel"
+  },
+  {
+    "size": 256,
+    "count": 1,
+    "className": "UIKeyboardSceneDelegate"
+  },
+  {
+    "size": 256,
+    "count": 1,
+    "className": "UIMotionEvent"
+  },
+  {
+    "size": 256,
+    "count": 1,
+    "className": "GPUImageFilter"
+  },
+  {
+    "size": 256,
+    "count": 2,
+    "className": "_UISwipeHandler"
+  },
+  {
+    "size": 256,
+    "count": 8,
+    "className": "MTH_RSSwizzleInfo"
+  },
+  {
+    "size": 256,
+    "count": 8,
+    "className": "__NSArrayI_Transfer"
+  },
+  {
+    "size": 256,
+    "count": 4,
+    "className": "GLProgram"
+  },
+  {
+    "size": 240,
+    "count": 3,
+    "className": "AVCaptureInputPortInternal"
+  },
+  {
+    "size": 240,
+    "count": 1,
+    "className": "UIUndoGestureObserver"
+  },
+  {
+    "size": 240,
+    "count": 1,
+    "className": "_UIButtonBar"
+  },
+  {
+    "size": 240,
+    "count": 1,
+    "className": "MTHANRDetectThread"
+  },
+  {
+    "size": 240,
+    "count": 1,
+    "className": "MTCameraPreviewStatGroup"
+  },
+  {
+    "size": 240,
+    "count": 1,
+    "className": "UIScrollEvent"
+  },
+  {
+    "size": 240,
+    "count": 1,
+    "className": "MTAPMDataModel"
+  },
+  {
+    "size": 240,
+    "count": 1,
+    "className": "MTCameraBootStatGroup"
+  },
+  {
+    "size": 224,
+    "count": 2,
+    "className": "CLCCCounter"
+  },
+  {
+    "size": 224,
+    "count": 14,
+    "className": "MTDebugOptionSelectorItem"
+  },
+  {
+    "size": 224,
+    "count": 1,
+    "className": "MTCameraPhotoStatGroup"
+  },
+  {
+    "size": 224,
+    "count": 2,
+    "className": "MTBMainRequest"
+  },
+  {
+    "size": 224,
+    "count": 1,
+    "className": "_UIKeyWindowEvaluator"
+  },
+  {
+    "size": 224,
+    "count": 1,
+    "className": "MTBSplashAdManager"
+  },
+  {
+    "size": 224,
+    "count": 1,
+    "className": "_UIRemoteKeyboards"
+  },
+  {
+    "size": 224,
+    "count": 1,
+    "className": "MTBSettingModel"
+  },
+  {
+    "size": 224,
+    "count": 1,
+    "className": "MTAnalyticsAppSetting"
+  },
+  {
+    "size": 224,
+    "count": 2,
+    "className": "GPUImageFramebuffer"
+  },
+  {
+    "size": 224,
+    "count": 1,
+    "className": "AVCaptureSessionInternal"
+  },
+  {
+    "size": 208,
+    "count": 1,
+    "className": "MSCFilterControl"
+  },
+  {
+    "size": 208,
+    "count": 1,
+    "className": "MTHNetworkTransaction"
+  },
+  {
+    "size": 208,
+    "count": 1,
+    "className": "TencentOAuth"
+  },
+  {
+    "size": 208,
+    "count": 1,
+    "className": "MTCameraYUVOutput"
+  },
+  {
+    "size": 208,
+    "count": 1,
+    "className": "UIEventEnvironment"
+  },
+  {
+    "size": 208,
+    "count": 1,
+    "className": "MTMotionManager"
+  },
+  {
+    "size": 208,
+    "count": 1,
+    "className": "_UIOrderedLayoutArrangement"
+  },
+  {
+    "size": 192,
+    "count": 2,
+    "className": "AVCaptureDataOutputDelegateCallbackHelper"
+  },
+  {
+    "size": 192,
+    "count": 6,
+    "className": "UMTIdSnapshot"
+  },
+  {
+    "size": 192,
+    "count": 4,
+    "className": "MTCPClassInfo"
+  },
+  {
+    "size": 192,
+    "count": 1,
+    "className": "UITouchesEvent"
+  },
+  {
+    "size": 192,
+    "count": 1,
+    "className": "MTCameraRatioStatGroup"
+  },
+  {
+    "size": 192,
+    "count": 1,
+    "className": "__NSCFURLLocalSessionConnection"
+  },
+  {
+    "size": 192,
+    "count": 3,
+    "className": "_UIVisualEffectHost"
+  },
+  {
+    "size": 192,
+    "count": 6,
+    "className": "_UICollectionViewSubviewManager"
+  },
+  {
+    "size": 192,
+    "count": 1,
+    "className": "MTAnalyticsBusinessBasic"
+  },
+  {
+    "size": 192,
+    "count": 1,
+    "className": "_UIButtonBarButtonVisualProviderIOS"
+  },
+  {
+    "size": 192,
+    "count": 1,
+    "className": "MTCameraFrameDataConverter"
+  },
+  {
+    "size": 192,
+    "count": 3,
+    "className": "MTBSimpleHttpFetcher"
+  },
+  {
+    "size": 192,
+    "count": 4,
+    "className": "_UICellViewAccessory"
+  },
+  {
+    "size": 192,
+    "count": 1,
+    "className": "MTCameraRecordStatGroup"
+  },
+  {
+    "size": 192,
+    "count": 6,
+    "className": "MTCameraHookClass"
+  },
+  {
+    "size": 192,
+    "count": 2,
+    "className": "CLCCBucket"
+  },
+  {
+    "size": 192,
+    "count": 1,
+    "className": "MTCameraRotateStatGroup"
+  },
+  {
+    "size": 176,
+    "count": 1,
+    "className": "IosClientInfo"
+  },
+  {
+    "size": 176,
+    "count": 1,
+    "className": "MTCameraQuitStatGroup"
+  },
+  {
+    "size": 176,
+    "count": 1,
+    "className": "MobClickInternal"
+  },
+  {
+    "size": 176,
+    "count": 1,
+    "className": "FBSDKServerConfiguration"
+  },
+  {
+    "size": 160,
+    "count": 5,
+    "className": "DACircularProgressLayer"
+  },
+  {
+    "size": 160,
+    "count": 1,
+    "className": "FBSDKAppEventsDeviceInfo"
+  },
+  {
+    "size": 160,
+    "count": 2,
+    "className": "BSServiceConnectionEndpointMonitor"
+  },
+  {
+    "size": 160,
+    "count": 1,
+    "className": "MTHCPUTrace"
+  },
+  {
+    "size": 160,
+    "count": 1,
+    "className": "NSXPCConnection"
+  },
+  {
+    "size": 160,
+    "count": 5,
+    "className": "_PFWeakReference"
+  },
+  {
+    "size": 160,
+    "count": 2,
+    "className": "MTAnalyticsSession"
+  },
+  {
+    "size": 160,
+    "count": 2,
+    "className": "UISwipeActionController"
+  },
+  {
+    "size": 160,
+    "count": 10,
+    "className": "_UIViewWindowRotationNotificationObserver"
+  },
+  {
+    "size": 144,
+    "count": 3,
+    "className": "PHTPhenotypeExperimentTokens"
+  },
+  {
+    "size": 144,
+    "count": 3,
+    "className": "_UINavigationBarItemStack"
+  },
+  {
+    "size": 144,
+    "count": 3,
+    "className": "APMUserDefaults"
+  },
+  {
+    "size": 144,
+    "count": 1,
+    "className": "_UIAlignedLayoutArrangement"
+  },
+  {
+    "size": 144,
+    "count": 1,
+    "className": "FOOMMonitor"
+  },
+  {
+    "size": 144,
+    "count": 1,
+    "className": "MTHawkeyeUIClient"
+  },
+  {
+    "size": 144,
+    "count": 3,
+    "className": "APMScreen"
+  },
+  {
+    "size": 144,
+    "count": 3,
+    "className": "_UIComplexBoundingPath"
+  },
+  {
+    "size": 144,
+    "count": 3,
+    "className": "MSCARMaterial"
+  },
+  {
+    "size": 144,
+    "count": 1,
+    "className": "MSCFilterCameraViewModel"
+  },
+  {
+    "size": 144,
+    "count": 1,
+    "className": "RBSConnection"
+  },
+  {
+    "size": 144,
+    "count": 3,
+    "className": "_UINavigationBarItemStackEntry"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "MTAPMDataSendManager"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "PHTFlatFilePhenotype"
+  },
+  {
+    "size": 128,
+    "count": 2,
+    "className": "PHTPhenotypeFlagsSnapshot"
+  },
+  {
+    "size": 128,
+    "count": 4,
+    "className": "EXReversibleValueTransformer"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "MTHLivingObjectSniffer"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "FBSScene"
+  },
+  {
+    "size": 128,
+    "count": 2,
+    "className": "MTBAdConfigHolder"
+  },
+  {
+    "size": 128,
+    "count": 4,
+    "className": "__NSFrozenDictionaryM"
+  },
+  {
+    "size": 128,
+    "count": 2,
+    "className": "_UIButtonBarLayoutMetrics"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "ClientInfo"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "GADDevice"
+  },
+  {
+    "size": 128,
+    "count": 2,
+    "className": "MTUniversalAIEngine"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "UIHoverEvent"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "SelfieCity.MSCFilterSelectViewModel"
+  },
+  {
+    "size": 128,
+    "count": 2,
+    "className": "MTCAIEngineDetectorSegment"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "CLCCCounters"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "MTBGlobalSettings"
+  },
+  {
+    "size": 128,
+    "count": 4,
+    "className": "UICellAccessoryConfiguration"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "_UIButtonBarItemLayout"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "_NSXPCConnectionExportedObjectTable"
+  },
+  {
+    "size": 128,
+    "count": 2,
+    "className": "_UITableViewSubviewManager"
+  },
+  {
+    "size": 128,
+    "count": 2,
+    "className": "PHTPhenotypeFlags"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "MTAnalyticsBusinessSettings"
+  },
+  {
+    "size": 128,
+    "count": 2,
+    "className": "FBSDKGraphRequest"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "UIWheelEvent"
+  },
+  {
+    "size": 128,
+    "count": 4,
+    "className": "MTBMaterialBucket"
+  },
+  {
+    "size": 128,
+    "count": 1,
+    "className": "SDWebImageDownloader"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "MSCCameraManager"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "DDTTYLogger"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "MTAppCIA"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "UMAAttribute"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "GADNetwork"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "MTAPM"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "MaterialDownloadManager"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "MTResourceUploadManager"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "_UIFocusSystemSceneComponent"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "BSServiceManager"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "Kingfisher.ImageCache"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "KSCrash"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "NSISLinearExpression"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "MTPhotoLibrary"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "AFJSONRequestSerializer"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "UIEvent"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "UIPencilEvent"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "FBSWorkspaceScenesClient"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "MTSSOWeChat"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "FBSDKGraphRequestConnection"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "UIRemoteControlEvent"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "_UIEventDeferringManager"
+  },
+  {
+    "size": 112,
+    "count": 1,
+    "className": "EXHExperimentIds"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "_UISceneEventRegistry"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "SelfieCity.MSCMaterialUpgradeManager"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "AVCaptureDeviceInputInternal"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "_UIModernBarButtonVisualProvider"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "UMConfigureCache"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "MTGID"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "AVCaptureMetadataOutputInternal"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "RTMAKEUP_IJKSDLAudioQueueController"
+  },
+  {
+    "size": 96,
+    "count": 2,
+    "className": "CCTClearcutAutoCounters"
+  },
+  {
+    "size": 96,
+    "count": 3,
+    "className": "NSKVONotifying_AVCaptureConnection"
+  },
+  {
+    "size": 96,
+    "count": 2,
+    "className": "FBSDKAppEventsState"
+  },
+  {
+    "size": 96,
+    "count": 2,
+    "className": "MTCAIEngineDetectorFace"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "MSCCameraViewModel"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "MTSSOWeibo"
+  },
+  {
+    "size": 96,
+    "count": 3,
+    "className": "_UIVisualEffectEnvironment"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "SKPaymentQueueInternal"
+  },
+  {
+    "size": 96,
+    "count": 2,
+    "className": "UIActivityContinuationManager"
+  },
+  {
+    "size": 96,
+    "count": 3,
+    "className": "MTLReversibleValueTransformer"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "MTCameraFrameProcessContext"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "MTCameraAnalyticsManager"
+  },
+  {
+    "size": 96,
+    "count": 3,
+    "className": "SelfieCity.MSCMaterialClient"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "GADEventLogger"
+  },
+  {
+    "size": 96,
+    "count": 2,
+    "className": "AVWeakReferencingDelegateStorage"
+  },
+  {
+    "size": 96,
+    "count": 2,
+    "className": "MTCAIEngineDetectorHand"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "BKSAccelerometer"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "_UIButtonBarItemGroupLayout"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "MTAppDataCenter"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "MTAPMKeychain"
+  },
+  {
+    "size": 96,
+    "count": 3,
+    "className": "_UINavigationControllerVisualStyleIOS"
+  },
+  {
+    "size": 96,
+    "count": 3,
+    "className": "ARKernelPlistDataInterface"
+  },
+  {
+    "size": 96,
+    "count": 2,
+    "className": "MTCAIEngineDetectorBody"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "SDMemoryCache"
+  },
+  {
+    "size": 96,
+    "count": 3,
+    "className": "GPBAutocreatedArray"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "MTCameraAnalyticsContext"
+  },
+  {
+    "size": 96,
+    "count": 1,
+    "className": "UISliderDataModel"
+  },
+  {
+    "size": 96,
+    "count": 6,
+    "className": "GADObserverCollection"
+  },
+  {
+    "size": 96,
+    "count": 3,
+    "className": "MTAppenderFile"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "FBSDKAppEvents"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTVolumeKeyListener"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTPushUploadInfo"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "UMEnvelopeBuild"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MPVolumeControllerSystemDataSource"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "_UINavigationBarTransitionAssistant"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTAPMDataManager"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTBBatchReportDataManager"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "FBSDKBridgeAPI"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "SDWebImageManager"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "GADDeviceOrientationSignals"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "_UIEventDeferringOwnershipToken"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTAnalyticsAppEndEvent"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MobClickApp"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "APMMonitor"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MSCGridPhoto"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "GADApplication"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "BSServiceConnection"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "AVCaptureVideoDataOutputInternal"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "UIBarButtonItemGroup"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "OOMStatisticsInfoCenter"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "CCTClearcutLogger"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTBSettingCenter"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTSSOTencent"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTHAppLaunchRecord"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "_UIEventDeferringDescriptor"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "GPUImageContext"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "CMPhotoProcessMonitor"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTHAllocations"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTDataFinderReporter"
+  },
+  {
+    "size": 80,
+    "count": 1,
+    "className": "MTGXID"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTUPTaskConfig"
+  },
+  {
+    "size": 64,
+    "count": 2,
+    "className": "MSCAdPageModel"
+  },
+  {
+    "size": 64,
+    "count": 2,
+    "className": "CCTClearcutCounters"
+  },
+  {
+    "size": 64,
+    "count": 2,
+    "className": "MTHawkeyeInnerDDLogFormatter"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "OOMDetector"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "GADAnalytics"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "GADMobileAds"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "AVClientBlockKVONotifier"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "SDImageCacheConfig"
+  },
+  {
+    "size": 64,
+    "count": 2,
+    "className": "FBSDKGraphRequestMetadata"
+  },
+  {
+    "size": 64,
+    "count": 2,
+    "className": "DDLoggerNode"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "UIStatusBarManager"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "CCTLogWriter"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "_UIContextBinder"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "APMScreenViewReporter"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "FBSDKTimeSpentData"
+  },
+  {
+    "size": 64,
+    "count": 2,
+    "className": "MTAppCIASyncMutableArray"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "OnlineWaterMarkModel"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "RBSProcessMonitor"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "__NSCFDictionary"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTHFPSGLRenderCounter"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MPAVLightweightRoutingController"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "PHTPhenotypeMessageFlag"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "_NSThreadPerformInfo"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTADCache"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTAnalyticsEventConfiguration"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "GADSettings"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTBNativeSplashAdLoaderManager"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "UISceneSession"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "FBSWorkspace"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTHDirectoryWatcherMonitor"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "_UISystemAppearanceManager"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTECModuleConfig"
+  },
+  {
+    "size": 64,
+    "count": 2,
+    "className": "MTBBlockDplink"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTHFPSTrace"
+  },
+  {
+    "size": 64,
+    "count": 2,
+    "className": "UIAutoRespondingScrollViewControllerKeyboardSupport"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "SDImageCache"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTGIDRequest"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "_UICanvasUserActivityManager"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "NSKVONotifying_AppDelegate"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "QQApiDatastore"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTHawkeyeClient"
+  },
+  {
+    "size": 64,
+    "count": 1,
+    "className": "MTHNetworkTaskInspector"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTADDBManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTAnalyticsReportManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "_UITintColorVisitor"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "FLEXManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTAppStoreRequest"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "APMAdExposureReporter"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTABusiness"
+  },
+  {
+    "size": 48,
+    "count": 3,
+    "className": "MTBBlinkDelegateWrapper"
+  },
+  {
+    "size": 48,
+    "count": 3,
+    "className": "KSCrashReportFilterPipeline"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTAppManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "AVCaptureSessionConfiguration"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTFPSHawkeyeUI"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "GADNotificationCenter"
+  },
+  {
+    "size": 48,
+    "count": 3,
+    "className": "NSKVONotifying_AVCaptureInputPort"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "WeiboSDK3rdApp"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "GADSQLStorage"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "GADEventContext"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MPVolumeHUDController"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "SelfieCity.MSCFeaturePanel"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTCrashInstallation"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHANRTrace"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "UIInputViewSetPlacement_GenericApplicator"
+  },
+  {
+    "size": 48,
+    "count": 3,
+    "className": "_UIWeakReference"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "URLNavigator.URLNavigator"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTBSplashSupplyingSession"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "IntelligentFilterManage"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHawkeyeNetworkExponentialGeometricAverage"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "CCTClearcutMetaLogger"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTCameraAIEngine"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHNetworkRecorder"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHNetworkStat"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTBSplashZoomOutAdManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "UIInputWindowControllerHosting"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTBMPIDataAnalytics"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "UMHelper"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "AppState"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHawkeyeMainPanels"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "FBSDKLogger"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTCameraAnalyticsStorage"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTABusinessWebService"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTDataFinderCollector"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "GDTCORUploadCoordinator"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "_UIEventDeferringRecord"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTCameraFramebufferCache"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "UMComReportPolicyManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTBAdConfigManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTDataFinderWebService"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "PHTPhenotypeLogger"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTImageManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MSCFilterOperation"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTPushManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "AFJSONResponseSerializer"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTAnalyticsWebService"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTADSetting"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "AFSecurityPolicy"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTAnalyticsDebugger"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTAnalyticsTraceManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHawkeyeFloatingWidgets"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "RBSService"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "GTMSessionCookieStorage"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "GPUImageFramebufferCache"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHANRObserver"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "SelfieCity.MSCFilterSelectionInfo"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "UIEventDispatcher"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTBBigDataAnalytics"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "SDWebImageImageIOCoder"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "UMTIdTracking"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTBServerAnalytics"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHLivingObjectShadow"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTAnalyticsNotificationManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHawkeyeInnerDDLogFileLogger"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "_UIKeyWindowSceneStack"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "CKContextContentProviderUIScene"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTBOnlineLoggingManager"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHawkeyeMemoryStatFloatingWidget"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHTimeIntervalRecorder"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTBVCAdViewManager"
+  },
+  {
+    "size": 48,
+    "count": 3,
+    "className": "_UIPresentationControllerVisualStyle"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "_UIFilteredDataSource"
+  },
+  {
+    "size": 48,
+    "count": 1,
+    "className": "MTHawkeyeStorage"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "UITextEffectsHostingInfo"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTAppStoreInfo"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTHLivingObjectSniffService"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "AVCaptureDeviceInput"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "AVCallbackContextRegistry"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTBVCStatusObject"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GTMLogger"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MobileRemainderInfo"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTMuteSwitchDetector"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UIBannerManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MPVolumeController"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTAnalyticsEventStorage"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTHOpenGLTraceHawkeyeUI"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTHDirectoryWatcherHawkeyeAdaptor"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GADCrashReporter"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "NSKVONotifying_AVCaptureMetadataOutput"
+  },
+  {
+    "size": 32,
+    "count": 2,
+    "className": "DDLog"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTHOpenGLTraceHawkeyeAdaptor"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "UMComFilterManager"
+  },
+  {
+    "size": 32,
+    "count": 2,
+    "className": "FBSDKBase64"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UIEventDeferringBehavior_Default"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "SDWebImageCodersManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTAnalyticsDebugApp"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GADDeviceOrientationSignalCache"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "SelfieCity.MSCPushNotificationManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "UMConfigManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GPBOneofDescriptor"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UIWindowSceneCoordinateSpace"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "CCTClearcutFlags"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTBOnScreenDetector"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GDTCORReachability"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTECModuleService"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GIPPseudonymousIDStore"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GTMLogLevelFilter"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UIButtonBarTargetAction"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GDTCORTransformer"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "UMComReportPolicyForBatch"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTHawkeyeUserDefaults"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "UMUcDB"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "QQApiLogManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTAnalyticsDatabaseConfiguration"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MobClickSession"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "AFNetworkReachabilityManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTHNetworkObserver"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "CCTQosTierOverrides"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "SelfieCity.MSCNetworkInfo"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTHawkeyeSettingUIEntity"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "UMUaDB"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "FIRFirebaseUserAgent"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "FBSDKCrashObserver"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTCameraEngineSwitch"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "PushNotificationController"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "FBSDKURLSession"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "FBSDKKeychainStore"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "NSKVONotifying_AVCaptureVideoDataOutput"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTBLocationManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "SelfieCity.MSCThinBodyModel"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTHawkeyeCPUStatFloatingWidget"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MSCARMaterialDataCenter"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTCameraSessionContext"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTGAFNetworkReachabilityManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GADApplicationStateEvents"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UIWindowSceneFBSSceneLifecycleMonitor"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UIKeyWindowSceneObserver"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GDTCORDirectorySizeTracker"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "AppDataCenterManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "BCVolumeListener"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "APNSUtil"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GDTCORFlatFileStorage"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTCPRouteManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GDTCORRegistrar"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_NSXPCConnectionExportInfo"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTCrashReporterSinkAnalytics"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "UIAlertControllerStackManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTAnalyticsEventManager"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "CCTUIKitAXUtils"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "UMBuildPayload"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UISceneLifecycleMultiplexer"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "UISceneActivationConditions"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UIFBSSceneSubstrate"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "URLNavigator.URLMatcher"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTHCPUTraceHawkeyeAdaptor"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTAnalyticsNetworkMonitor"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "BSZeroingWeakReference"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "SelfieCity.MSCCommonClient"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "FBSDKApplicationDelegate"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "SelfieCity.MSCStartupTool"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GDTCCTUploader"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MobClickLocation"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UIAssertionController"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "NSKVONotifying_AVCapturePhotoOutput"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "CCTLogSampler"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UIWindowSceneStackRecord"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTFPSHawkeyeAdaptor"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "GTMLogStandardFormatter"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "FBSDKLikeActionControllerCache"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "MTBAnalyticsDispatcher"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "PHTCachedModTimeData"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "_UIRemoteKeyboardsEventObserver"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "AVCaptureInputInternal"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "UMWorkDispatch"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "ARKernelInterface"
+  },
+  {
+    "size": 32,
+    "count": 1,
+    "className": "WBAidManager"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MaterialAPIClient"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTCameraHookTable"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHANRHawkeyeUI"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHNetworkMonitor"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTAppCIANetworkManager"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "_UIAssistantEntry"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "ImageDiskCache"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SKWeakReference"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTADModule"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SelfieCity.MSCFishEyeCameraViewModel"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTAnalyticsEventAutotestStorage"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SelfieCity.RecommendFilterInfo"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHNetworkInspectHawkeyeAdaptor"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "FBSDKAccessTokenCache"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SelfieCity.MSCAppEnvironment"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SelfieCity.MSCConfiguration"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTBCacher"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SDWebImageWebPCoder"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "APMASLLogger"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "QQPasteboardMgr"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHANRHawkeyeAdaptor"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "QQLeakFileUploadCenter"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHAllocationsHawkeyeAdaptor"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "__NSSingleObjectSetI"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "FIRAnalytics"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SelfieCity.MSCPolaroidCameraViewModel"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHFakeKVOObserver"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHUITimeProfilerHawkeyeUI"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTBWebKitParamsManager"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "BCADUtils"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SelfieCity.MSCShareManager"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "_UISceneScreenBasedMetricsCalculator"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTBAdPrefetcher"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHNetworkInspectHawkeyeMainPanelUI"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTOOMDetector"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHNetworkMonitorHawkeyeMainPanelUI"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "UMImprintObserverManager"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "FBSDKMonitoringConfiguration"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHToast"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHawkeyeWeakProxy"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "FBSDKMeasurementEventListener"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "FBSDKErrorConfiguration"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SKPaymentQueue"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "AVKVODispatcher"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "GPBExtensionRegistry"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTPushInfoUtil"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHDirectoryWatcherHawkeyeUI"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTBResourceMgr"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "UMFilterImprint"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "CCTPhenotypeLogTransformer"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "CCTNoOpLockProvider"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MPShareSDK"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "UMReachability"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SelfieCity.MSCFilmCameraViewModel"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SelfieCity.CameraMonitor"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTBFilterMask"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "SelfieCity.MSCThinBodyEntranceTipModel"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "QQLeakDataUploadCenter"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "FBSDKAccessTokenExpirer"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTCameraMethodLog"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "QQArrayPasteboard"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTPhotoAlbumState"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTBAnalyticsWebService"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTAnalyticsGIDSetting"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTConfigManager"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "GDTCORLifecycle"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTAnalyticsGID"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTCPUIKitModule"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHNetworkHawkeyeSettingUI"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTAnalyticsRemoteConfiguration"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHUITimeProfilerHawkeyeAdaptor"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "FLEXHawkeyePlugin"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHNetworkRecordsStorage"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "CCTClientInfoMaker"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "GDTCORApplication"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "UMEnvelopeSubFolder"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "FBSDKPaymentObserver"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHAllocationsHawkeyeUI"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHLivingObjectsSnifferHawkeyeAdaptor"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTAnalytics"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHLivingObjectsSnifferHawkeyeUI"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "APMMonitoringSampledData"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHNetworkMonitorHawkeyeAdaptor"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "UIApplicationSceneClientAgent"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "CCTSystemClock"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "NSKVONotifying_AVCaptureSession"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "APMIdentifiers"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "FBSDKGameRequestFrictionlessRecipientCache"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHCPUTraceHawkeyeUI"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTBAnalyticsReportData"
+  },
+  {
+    "size": 16,
+    "count": 1,
+    "className": "MTHObjcCallTraceHawkeyeAdaptor"
+  }
+]

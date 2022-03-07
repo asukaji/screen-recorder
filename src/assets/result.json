@@ -1,0 +1,50 @@
+[
+  {
+    "vmTag": "MALLOC_NANO",
+    "address": 10800959040,
+    "parent": "NSISUnrestrictedVariable",
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "vmTag": "MALLOC_NANO",
+    "address": 10800960960,
+    "parent": "NSISUnrestrictedVariable",
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "vmTag": "MALLOC_NANO",
+    "address": 10800961200,
+    "parent": "NSISUnrestrictedVariable",
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "vmTag": "MALLOC_NANO",
+    "address": 10800961440,
+    "parent": "NSISRestrictedToNonNegativeVariable",
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "vmTag": "MALLOC_NANO",
+    "address": 10800961680,
+    "parent": "NSISRestrictedToNonNegativeVariable",
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "vmTag": "MALLOC_NANO",
+    "address": 10800961920,
+    "parent": "NSContentSizeLayoutConstraint",
+    "size": 48,
+    "kind": 1,
+    "class_name": "AVCMNotificationDispatcherListenerKey"
+  }
+]

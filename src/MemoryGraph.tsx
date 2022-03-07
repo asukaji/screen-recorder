@@ -32,8 +32,8 @@ export default function MemoryGraph() {
 
     graph.current = new G6.TreeGraph({
       container,
-      width: 1000,
-      height: 800,
+      width: 900,
+      height: 600,
       fitView: true,
       fitCenter: true,
       animate: false,

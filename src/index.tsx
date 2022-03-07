@@ -8,12 +8,14 @@ import './index.less';
 // import Recorder from "./Recorder";
 // import FlameGraph from "./FlameGraph";
 import MemoryGraph from './MemoryGraph';
+import SearchTree from './SearchTree';
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <ConfigProvider locale={locale}>
     <MemoryGraph />
+    <SearchTree />
   </ConfigProvider>,
   document.getElementById('root')
 );

@@ -1,4 +1,4 @@
-@import "~antd/es/style/core/motion";
+@import '~antd/es/style/core/motion';
 
 html {
   ::-webkit-scrollbar {
@@ -24,6 +24,14 @@ body,
 #root,
 #app {
   height: 100%;
+}
+
+#root {
+  display: flex;
+
+  &:first-child {
+    flex: 1;
+  }
 }
 
 mark {
