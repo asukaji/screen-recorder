@@ -1,6 +1,7 @@
 import Highlighter from 'react-highlight-words';
-import { Tree, Empty, Spin } from 'antd';
+import { Empty, Spin } from 'antd';
 import { FolderOpenOutlined, FolderOutlined } from '@ant-design/icons';
+import AsyncTree from './AsyncTree';
 
 import { useState } from 'react';
 import _ from 'lodash';
@@ -81,25 +82,27 @@ export function useSearchTree() {
 }
 
 interface IHighLightTreeProps {
+  height?: number;
   treeData: DataNode[];
   loading: boolean;
+  onSelect?: (key: DataNode['key']) => void;
 }
 
 export default function HighLightTree({
+  height,
   treeData,
   loading,
+  onSelect,
 }: IHighLightTreeProps) {
   return (
     <Spin spinning={loading}>
       {_.isEmpty(treeData) ? (
         <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
       ) : (
-        <Tree
-          height={896}
-          treeData={treeData}
-          showLine
-          showIcon
-          defaultExpandAll
+        <AsyncTree
+          height={height}
+          // treeData={treeData}
+          onSelect={onSelect}
         />
       )}
     </Spin>

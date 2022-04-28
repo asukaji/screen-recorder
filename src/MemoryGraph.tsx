@@ -2,6 +2,7 @@ import G6, { Graph, IG6GraphEvent, NodeConfig } from '@antv/g6';
 import Node from './Node';
 import ArrowEdge from './ArrowEdge';
 import ZoomHandler from './ZoomHandler';
+import FullScreen from './FullScreen';
 
 import { useRef, useEffect, useState } from 'react';
 
@@ -118,11 +119,19 @@ export default function MemoryGraph() {
   }, []);
 
   return (
-    <div ref={graphRef}>
-      <div>
-        {model?.label}
-        {model?.id}
+    <div>
+      <div ref={graphRef}>
+        <div>
+          {model?.label}
+          {model?.id}
+        </div>
       </div>
+      <FullScreen>
+        <>
+          <div>asd</div>
+          <div>qwe</div>
+        </>
+      </FullScreen>
     </div>
   );
 }

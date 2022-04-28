@@ -1,4 +1,4 @@
-import { Tree, Empty } from 'antd';
+import { Tree, Empty, TreeProps } from 'antd';
 import { FolderOpenOutlined, FolderOutlined } from '@ant-design/icons';
 
 import { useMemo, useState, useRef } from 'react';
@@ -22,20 +22,28 @@ function fetchData(parentsAddress: string) {
   });
 }
 
-interface IOriginDataNode {
+export interface IOriginDataNode {
   className: string;
-  count: number;
+  count?: number;
   size: number;
+  children?: Omit<IOriginDataNode, 'children'>[];
 }
 
-export function useTreeData(
-  originTreeData?: IOriginDataNode[]
-): [DataNode[], (treeNode: EventDataNode) => Promise<void>] {
-  const [nextChildren, setNextChildren] =
-    useState<Record<string, DataNode[]>>();
+type useTreeDataProps = {
+  originTreeData: IOriginDataNode[];
+  children?: Record<string, DataNode[]>;
+};
+
+export function useTreeData({
+  originTreeData,
+  children,
+}: useTreeDataProps): [DataNode[], (treeNode: EventDataNode) => Promise<void>] {
+  const [nextChildren, setNextChildren] = useState<
+    Record<string, DataNode[]> | undefined
+  >(children);
 
   const treeData = useMemo<DataNode[]>(() => {
-    return _.map(originTreeData ?? data, ({ className, count, size }) => ({
+    return _.map(originTreeData, ({ className, count, size }) => ({
       title: `${className} (${count} ${size}Byte)`,
       key: className,
       selectable: false,
@@ -69,12 +77,23 @@ export function useTreeData(
   return [treeData, onLoadData];
 }
 
-export default function AsyncTree() {
-  const [treeData, onLoadData] = useTreeData();
+interface IAsyncTreeProps extends Omit<TreeProps, 'treeData' | 'onSelect'> {
+  treeData?: IOriginDataNode[];
+  children?: useTreeDataProps['children'];
+  onSelect?: (key: DataNode['key']) => void;
+}
+
+export default function AsyncTree(props: IAsyncTreeProps) {
+  const [treeData, onLoadData] = useTreeData({
+    originTreeData: props.treeData ?? data,
+    children: props.children,
+  });
   const nodeRef = useRef<HTMLDivElement>(null);
 
   const onSelect = (selectedKeys: DataNode['key'][]) => {
-    console.log(selectedKeys);
+    const selectedKey = _.first(selectedKeys);
+
+    selectedKey && props.onSelect?.(selectedKey);
   };
 
   return (
@@ -83,7 +102,7 @@ export default function AsyncTree() {
         <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
       ) : (
         <Tree
-          height={896}
+          height={props.height}
           loadData={onLoadData}
           treeData={treeData}
           showLine

@@ -46,5 +46,17 @@
     "size": 48,
     "kind": 1,
     "class_name": "AVCMNotificationDispatcherListenerKey"
+  },
+  {
+    "vmTag": "MALLOC_NANO",
+    "size": 48,
+    "kind": 1,
+    "class_name": "MASLayoutConstraint"
+  },
+  {
+    "vmTag": "MALLOC_NANO",
+    "size": 48,
+    "kind": 1,
+    "class_name": "MASViewConstraint"
   }
 ]

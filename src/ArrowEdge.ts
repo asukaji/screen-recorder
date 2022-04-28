@@ -11,8 +11,8 @@ const arrowEdge = {
 
     return [
       ['M', startPoint.x - 40, startPoint.y],
-      ['L', endPoint.x / 3 + (2 / 3) * startPoint.x, startPoint.y],
-      ['L', endPoint.x / 3 + (2 / 3) * startPoint.x, endPoint.y],
+      ['L', endPoint.x / 2 + (1 / 2) * startPoint.x, startPoint.y],
+      ['L', endPoint.x / 2 + (1 / 2) * startPoint.x, endPoint.y],
       ['L', endPoint.x + 40, endPoint.y],
     ];
   },

@@ -1,0 +1,19 @@
+@import '~antd/es/style/themes/default';
+
+.container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 48px;
+  background-color: #fff;
+  z-index: 92;
+
+  display: flex;
+
+  :local .exit {
+    position: absolute;
+    right: @padding-md;
+    top: @padding-md;
+  }
+}
