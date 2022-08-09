@@ -39,6 +39,7 @@ export default function SearchTree() {
           onSearch(value);
         }}
       />
+      {/* @ts-ignore */}
       <Spin spinning={fetching}>
         {keywords ? (
           <HighLightTree

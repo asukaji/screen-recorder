@@ -1,23 +1,26 @@
 // import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import { ConfigProvider } from 'antd';
 
 import locale from 'antd/es/locale/zh_CN';
 import 'normalize.css';
 import './index.less';
-// import Recorder from "./Recorder";
-// import FlameGraph from "./FlameGraph";
-import MemoryGraph from './MemoryGraph';
-import SearchTree from './SearchTree';
+
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './Routes';
+import Link from './Links';
 
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root') as Element);
+
+root.render(
   <ConfigProvider locale={locale}>
-    <MemoryGraph />
-    <SearchTree />
-  </ConfigProvider>,
-  document.getElementById('root')
+    <BrowserRouter>
+      <Link />
+      <Routes />
+    </BrowserRouter>
+  </ConfigProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

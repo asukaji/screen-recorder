@@ -18,6 +18,7 @@ function fetchData(keywords: string) {
             result,
             (nodes, { address, size, parent }) => {
               const title = (
+                // @ts-ignore
                 <Highlighter
                   searchWords={[keywords]}
                   textToHighlight={`${address}(${size}Byte)`}
@@ -95,6 +96,7 @@ export default function HighLightTree({
   onSelect,
 }: IHighLightTreeProps) {
   return (
+    // @ts-ignore
     <Spin spinning={loading}>
       {_.isEmpty(treeData) ? (
         <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />

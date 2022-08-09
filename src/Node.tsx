@@ -74,7 +74,9 @@ function GraphNode({ cfg }: nodeProps) {
   const { collapsed } = cfg;
 
   return (
+    // @ts-ignore
     <Group>
+      {/* @ts-ignore */}
       <Rect
         style={{
           width: 80,
@@ -83,6 +85,7 @@ function GraphNode({ cfg }: nodeProps) {
           justifyContent: 'center',
         }}
       >
+        {/* @ts-ignore */}
         <Rect
           style={{
             fill: cfg.isActive ? '#7955ff' : 'transparent',
@@ -98,6 +101,7 @@ function GraphNode({ cfg }: nodeProps) {
             }}
           />
         </Rect>
+        {/* @ts-ignore */}
         <Rect
           style={{
             fill: cfg.isActive ? '#7955ff' : 'transparent',
@@ -106,6 +110,7 @@ function GraphNode({ cfg }: nodeProps) {
             opacity: 0.8,
           }}
         >
+          {/* @ts-ignore */}
           <Text
             style={{
               fill: cfg.isActive ? '#fff' : '#333',

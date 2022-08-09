@@ -4,7 +4,7 @@ import styles from './ZoomHandler.module.less';
 
 export default function ZoomHandler() {
   return new G6.ToolBar({
-    position: { x: 0, y: 32 },
+    position: { x: 128, y: 32 },
     className: styles.toolbar,
     getContent: () => {
       return `

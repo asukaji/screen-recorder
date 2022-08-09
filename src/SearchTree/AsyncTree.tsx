@@ -77,7 +77,8 @@ export function useTreeData({
   return [treeData, onLoadData];
 }
 
-interface IAsyncTreeProps extends Omit<TreeProps, 'treeData' | 'onSelect'> {
+interface IAsyncTreeProps
+  extends Omit<TreeProps, 'treeData' | 'onSelect' | 'children'> {
   treeData?: IOriginDataNode[];
   children?: useTreeDataProps['children'];
   onSelect?: (key: DataNode['key']) => void;
