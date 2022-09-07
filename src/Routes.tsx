@@ -3,7 +3,6 @@ import FlameGraph from './FlameGraph';
 import MemoryGraph from './MemoryGraph';
 import SearchTree from './SearchTree';
 
-import { usePrompt } from '@meitu/rake';
 import { useRoutes } from 'react-router-dom';
 
 export const ROUTES = [
@@ -26,8 +25,5 @@ export const ROUTES = [
 ];
 
 export default function Routes() {
-  const cls = usePrompt('?');
-  console.log(cls);
-
   return useRoutes(ROUTES);
 }

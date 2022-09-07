@@ -8,6 +8,7 @@ import { useState, useRef } from 'react';
 import { useTracking } from 'react-tracking';
 // @ts-ignore
 // import { toJSON, toDom } from 'dom-to-json';
+import { usePrompt } from '@meitu/rake';
 
 import RecordBtn from './RecordBtn';
 import SandBox, { ISandboxRef } from './Sandbox';
@@ -32,6 +33,7 @@ export default function Recorder() {
   );
   const [node, setNode] = useState<Node>();
   const sandboxRef = useRef<ISandboxRef>(null);
+  usePrompt('?');
 
   function onCamera() {
     // const domJson = toJSON(root.cloneNode(true));
