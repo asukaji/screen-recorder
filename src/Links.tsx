@@ -11,5 +11,29 @@ function renderLinkItem(props: RouteProps) {
 }
 
 export default function Links() {
+  console.log(`
+                            ug
+                       b
+                      g           bug
+                      u        bug
+      bugbug          b       g
+            bug      bugbug bu
+               bug  bugbugbugbugbugbug
+  bug   bug   bugbugbugbugbugbugbugbugb
+     bug   bug bugbugbugbugbugbugbugbugbu
+   bugbugbugbu gbugbugbugbugbugbugbugbugbu
+  bugbugbugbug
+   bugbugbugbu gbugbugbugbugbugbugbugbugbu
+     bug   bug bugbugbugbugbugbugbugbugbu
+  bug   bug  gbugbugbugbugbugbugbugbugb
+               bug  bugbugbugbugbugbug
+            bug      bugbug  bu
+      bugbug          b        g
+                      u         bug
+                      g            bug
+                       b
+                        ug
+  `);
+
   return <div style={{ minWidth: 128 }}>{_.map(ROUTES, renderLinkItem)}</div>;
 }
