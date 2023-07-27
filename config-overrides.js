@@ -23,6 +23,9 @@ module.exports = override(
       javascriptEnabled: true,
       localIdentName: '[local]_[hash:base64:8]',
       noIeCompat: true,
+      modifyVars: {
+        '@primary-color': '#7955ff',
+      },
     },
   }),
   //增加路径别名的处理
