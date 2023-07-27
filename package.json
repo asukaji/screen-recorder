@@ -14,14 +14,17 @@
     "d3-flame-graph": "^4.0.6",
     "d3-tip": "^0.9.1",
     "dom-to-json": "^0.0.4",
+    "konva": "^9.2.0",
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-highlight-words": "^0.18.0",
+    "react-konva": "^18.2.10",
     "react-router-dom": "^6.3.0",
     "react-scripts": "4.0.3",
     "react-tracking": "^9.2.0",
+    "use-image": "^1.1.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
