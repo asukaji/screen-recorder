@@ -17,9 +17,21 @@ export function IntersectionBox({ children }: IntersectionBoxProps) {
   const { rectShape, imageShape } = useContext(StageContext);
 
   const dragBoundFunc = (position: Vector2d) => {
+    if (!rectShape || !imageShape) {
+      return;
+    }
+
     return {
-      x: position.y,
-      y: position.x,
+      x:
+        rectShape.x > position.x ||
+        rectShape.x + rectShape.width < position.x + imageShape.width
+          ? imageShape.x
+          : position.x,
+      y:
+        rectShape.y > position.y ||
+        rectShape.y + rectShape.height < position.y + imageShape.height
+          ? imageShape.y
+          : position.y,
     };
   };
 
