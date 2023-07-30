@@ -1,7 +1,8 @@
-import type { ReactElement } from 'react';
-import type Konva from 'konva';
+import type { ReactElement } from "react";
+import type Konva from "konva";
+import { StageContext } from ".";
 
-import { cloneElement } from 'react';
+import { cloneElement, useContext } from "react";
 
 interface IntersectionBoxProps {
   children: ReactElement<Konva.Shape>;
@@ -13,6 +14,8 @@ interface Vector2d {
 }
 
 export function IntersectionBox({ children }: IntersectionBoxProps) {
+  const { rectShape, imageShape } = useContext(StageContext);
+
   const dragBoundFunc = (position: Vector2d) => {
     return {
       x: position.y,

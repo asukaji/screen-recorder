@@ -1,12 +1,12 @@
-import type Konva from 'konva';
+import type Konva from "konva";
 
-import { useEffect, useContext, useRef } from 'react';
-import { Image } from 'react-konva';
-import { Transformer } from './Transformer';
-import useImage from 'use-image';
+import { useEffect, useContext, useRef, useState } from "react";
+import { Image } from "react-konva";
+import { Transformer } from "./Transformer";
+import useImage from "use-image";
 
 interface ImageTransformerProps
-  extends Omit<Konva.ImageConfig, 'isSelected' | 'onSelect'> {
+  extends Omit<Konva.ImageConfig, "isSelected" | "onSelect"> {
   isSelected: boolean;
   onSelect: () => void;
 }
@@ -16,7 +16,7 @@ export function ImageTransformer({
   onSelect,
   ...imageProps
 }: ImageTransformerProps) {
-  const [image] = useImage('https://konvajs.org/assets/lion.png');
+  const [image] = useImage("https://konvajs.org/assets/lion.png");
   // const { setCursorStyle } = useContext(AppContext);
   const imageRef = useRef<Konva.Image>(null);
 
@@ -32,7 +32,7 @@ export function ImageTransformer({
     <Transformer
       // ref={imageRef}
       isSelected={isSelected}
-      enabledAnchors={['top-left', 'top-right', 'bottom-left', 'bottom-right']}
+      enabledAnchors={["top-left", "top-right", "bottom-left", "bottom-right"]}
     >
       <Image draggable image={image} onClick={onSelect} {...imageProps} />
     </Transformer>

@@ -1,18 +1,12 @@
-import type { ReactNode } from 'react';
-import type Konva from 'konva';
+import type { ReactNode } from "react";
+import type Konva from "konva";
+import type { IRect } from ".";
 
-import { Layer, Transformer } from 'react-konva';
-import { Children, isValidElement, useRef } from 'react';
+import { Layer, Transformer } from "react-konva";
+import { Children, isValidElement, useRef } from "react";
 
 interface IntersectionLayerProps {
   children: ReactNode;
-}
-
-interface IRect {
-  x: number;
-  y: number;
-  width: number;
-  height: number;
 }
 
 function haveIntersection(stillRect: IRect, draggingRect: IRect) {
@@ -41,7 +35,6 @@ export function IntersectionLayer({ children }: IntersectionLayerProps) {
         return;
       }
 
-      console.log(child);
       if (haveIntersection(child.getClientRect(), draggingTargetRect)) {
         console.log(child.getClientRect(), draggingTargetRect);
       }
