@@ -1,11 +1,11 @@
-import { Stage, Layer } from "react-konva";
-import { useEffect, useRef, useState, createContext } from "react";
-import { RectTransformer } from "./RectTransformer";
-import { ImageTransformer } from "./ImageTransformer";
-import { IntersectionLayer } from "./IntersectionLayer";
-import { IntersectionBox } from "./IntersectionBox";
+import { Stage, Layer } from 'react-konva';
+import { useEffect, useRef, useState, createContext } from 'react';
+import { RectTransformer } from './RectTransformer';
+import { ImageTransformer } from './ImageTransformer';
+import { IntersectionLayer } from './IntersectionLayer';
+import { IntersectionBox } from './IntersectionBox';
 
-import type Konva from "konva";
+import type Konva from 'konva';
 
 export interface IRect {
   x: number;
@@ -21,13 +21,15 @@ const initialRectangle = {
   height: 512,
 };
 
+type Cursor = 'grab' | 'grabbing' | undefined;
 export interface CanvasExtensionCtx {
-  // layers: string[];
   rectShape?: IRect;
   imageShape?: IRect;
+  cursor?: Cursor;
 
   setRectShape?: (shape: IRect) => void;
   setImageShape?: (shape: IRect) => void;
+  setCursor?: (cursor: Cursor) => void;
 }
 
 export const StageContext = createContext<CanvasExtensionCtx>({});
@@ -36,12 +38,13 @@ export default function CanvasExtension() {
   const [rectangle, setRectangle] = useState(initialRectangle);
   const [selectedId, selectShape] = useState<string>();
   const stageRef = useRef(null);
-  const [shap, setShap] = useState<IRect>({
+  const [shape, setShape] = useState<IRect>({
     x: 150,
     y: 150,
     width: 128,
     height: 128,
   });
+  const [cursor, setCursor] = useState<Cursor>();
 
   const checkDeselect = (e: Konva.KonvaEventObject<unknown>) => {
     // deselect when clicked on empty area
@@ -55,9 +58,11 @@ export default function CanvasExtension() {
     <StageContext.Provider
       value={{
         rectShape: rectangle,
-        imageShape: shap,
+        imageShape: shape,
+        cursor,
+        setCursor,
         setRectShape: setRectangle,
-        setImageShape: setShap,
+        setImageShape: setShape,
       }}
     >
       <Stage
@@ -66,20 +71,41 @@ export default function CanvasExtension() {
         height={window.innerHeight}
         onMouseDown={checkDeselect}
         onTouchStart={checkDeselect}
+        style={{
+          cursor,
+        }}
       >
         <Layer>
-          <RectTransformer
-            shapeProps={{ ...rectangle, id: "rect2" }}
-            isSelected
-            // @ts-ignore
-            onChange={setRectangle}
-          />
-          <IntersectionBox>
+          <IntersectionBox
+            lowerRect={shape}
+            onRectChange={(rect) => {
+              setRectangle({
+                ...rectangle,
+                ...rect,
+              });
+            }}
+          >
+            <RectTransformer
+              shapeProps={{ ...rectangle, id: 'rect2' }}
+              isSelected
+              // @ts-ignore
+              onChange={setRectangle}
+            />
+          </IntersectionBox>
+          <IntersectionBox
+            upperRect={rectangle}
+            onRectChange={(rect) => {
+              setShape({
+                ...shape,
+                ...rect,
+              });
+            }}
+          >
             <ImageTransformer
-              {...shap}
-              isSelected={selectedId === "image"}
+              {...shape}
+              isSelected={selectedId === 'image'}
               onSelect={() => {
-                selectShape("image");
+                selectShape('image');
               }}
             />
           </IntersectionBox>

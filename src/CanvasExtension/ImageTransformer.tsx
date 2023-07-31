@@ -1,12 +1,14 @@
-import type Konva from "konva";
+import type Konva from 'konva';
 
-import { useEffect, useContext, useRef, useState } from "react";
-import { Image } from "react-konva";
-import { Transformer } from "./Transformer";
-import useImage from "use-image";
+import { Image } from 'react-konva';
+import { Transformer } from './Transformer';
+import { StageContext } from '.';
+import { useContext } from 'react';
+import useImage from 'use-image';
 
 interface ImageTransformerProps
-  extends Omit<Konva.ImageConfig, "isSelected" | "onSelect"> {
+  extends Omit<Konva.ImageConfig, 'isSelected' | 'onSelect'> {
+  boundBoxFunc?: Konva.TransformerConfig['boundBoxFunc'];
   isSelected: boolean;
   onSelect: () => void;
 }
@@ -14,27 +16,42 @@ interface ImageTransformerProps
 export function ImageTransformer({
   isSelected,
   onSelect,
+  boundBoxFunc,
   ...imageProps
 }: ImageTransformerProps) {
-  const [image] = useImage("https://konvajs.org/assets/lion.png");
-  // const { setCursorStyle } = useContext(AppContext);
-  const imageRef = useRef<Konva.Image>(null);
+  const [image] = useImage('https://konvajs.org/assets/lion.png');
+  const { setCursor } = useContext(StageContext);
 
-  // useEffect(() => {
-  //   if (imageRef.current) {
-  //     imageRef.current.on("mouseenter", function () {
-  //       setCursorStyle("pointer");
-  //     });
-  //   }
-  // }, []);
+  const onMouseEnter = () => {
+    setCursor?.('grab');
+  };
+  const onMouseDown = () => {
+    setCursor?.('grabbing');
+  };
+  const onMouseUp = () => {
+    setCursor?.('grab');
+  };
+  const onMouseLeave = () => {
+    setCursor?.(undefined);
+  };
 
   return (
     <Transformer
       // ref={imageRef}
       isSelected={isSelected}
-      enabledAnchors={["top-left", "top-right", "bottom-left", "bottom-right"]}
+      enabledAnchors={['top-left', 'top-right', 'bottom-left', 'bottom-right']}
+      boundBoxFunc={boundBoxFunc}
     >
-      <Image draggable image={image} onClick={onSelect} {...imageProps} />
+      <Image
+        draggable
+        image={image}
+        onClick={onSelect}
+        onMouseEnter={onMouseEnter}
+        onMouseDown={onMouseDown}
+        onMouseUp={onMouseUp}
+        onMouseLeave={onMouseLeave}
+        {...imageProps}
+      />
     </Transformer>
   );
 }

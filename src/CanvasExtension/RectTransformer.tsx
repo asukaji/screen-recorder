@@ -1,11 +1,12 @@
-import type Konva from "konva";
+import type Konva from 'konva';
 
-import { Transformer } from "./Transformer";
-import { Rect } from "react-konva";
+import { Transformer } from './Transformer';
+import { Rect } from 'react-konva';
 
 interface RectTransformerProps {
   shapeProps: Konva.RectConfig;
   isSelected: boolean;
+  boundBoxFunc?: Konva.TransformerConfig['boundBoxFunc'];
   onSelect: () => void;
   onChange: (config: Konva.RectConfig) => void;
 }
@@ -13,6 +14,7 @@ interface RectTransformerProps {
 export function RectTransformer({
   shapeProps,
   isSelected,
+  boundBoxFunc,
   onSelect,
   onChange,
 }: RectTransformerProps) {
@@ -20,26 +22,27 @@ export function RectTransformer({
     <Transformer
       isSelected={isSelected}
       enabledAnchors={[
-        "top-center",
-        "middle-right",
-        "bottom-center",
-        "middle-left",
+        'top-center',
+        'middle-right',
+        'bottom-center',
+        'middle-left',
       ]}
       ignoreStroke={true}
-      borderStroke="blue"
-      anchorFill="blue"
+      borderStroke='blue'
+      anchorFill='blue'
       anchorStrokeWidth={0}
       anchorCornerRadius={20}
       anchorStyleFunc={(anchor: any) => {
-        if (anchor.hasName("top-center") || anchor.hasName("bottom-center")) {
+        if (anchor.hasName('top-center') || anchor.hasName('bottom-center')) {
           anchor.width(40);
           anchor.offsetX(20);
         }
-        if (anchor.hasName("middle-right") || anchor.hasName("middle-left")) {
+        if (anchor.hasName('middle-right') || anchor.hasName('middle-left')) {
           anchor.height(40);
           anchor.offsetY(20);
         }
       }}
+      boundBoxFunc={boundBoxFunc}
     >
       <Rect
         onClick={onSelect}
