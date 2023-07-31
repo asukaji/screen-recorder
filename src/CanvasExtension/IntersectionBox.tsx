@@ -71,9 +71,6 @@ export function IntersectionBox({
       return oldBox;
     }
 
-    // console.log(newBox);
-    onRectChange?.(newBox);
-
     return newBox;
   };
 

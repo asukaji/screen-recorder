@@ -76,19 +76,10 @@ export default function CanvasExtension() {
         }}
       >
         <Layer>
-          <IntersectionBox
-            lowerRect={shape}
-            onRectChange={(rect) => {
-              setRectangle({
-                ...rectangle,
-                ...rect,
-              });
-            }}
-          >
+          <IntersectionBox lowerRect={shape}>
             <RectTransformer
               shapeProps={{ ...rectangle, id: 'rect2' }}
               isSelected
-              // @ts-ignore
               onChange={setRectangle}
             />
           </IntersectionBox>
@@ -102,11 +93,12 @@ export default function CanvasExtension() {
             }}
           >
             <ImageTransformer
-              {...shape}
+              shapeProps={{ ...shape, id: 'image' }}
               isSelected={selectedId === 'image'}
               onSelect={() => {
                 selectShape('image');
               }}
+              onChange={setShape}
             />
           </IntersectionBox>
         </Layer>

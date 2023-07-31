@@ -44,13 +44,13 @@ export function Transformer({
         <KonvaTransformer
           ref={trRef}
           rotateEnabled={false}
-          boundBoxFunc={(oldBox, newBox) => {
-            // limit resize
-            if (newBox.width < 50 || newBox.height < 50) {
-              return oldBox;
-            }
-            return newBox;
-          }}
+          // boundBoxFunc={(oldBox, newBox) => {
+          //   // limit resize
+          //   if (newBox.width < 50 || newBox.height < 50) {
+          //     return oldBox;
+          //   }
+          //   return newBox;
+          // }}
           {...props}
         />
       )}
