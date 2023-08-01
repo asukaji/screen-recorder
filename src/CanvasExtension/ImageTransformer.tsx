@@ -6,13 +6,14 @@ import { Transformer } from './Transformer';
 import { StageContext } from '.';
 import { useContext } from 'react';
 import useImage from 'use-image';
+import { transform } from './utils';
 
 interface ImageTransformerProps
   extends Omit<Konva.ImageConfig, 'isSelected' | 'onSelect'> {
   boundBoxFunc?: Konva.TransformerConfig['boundBoxFunc'];
   isSelected: boolean;
   onSelect: () => void;
-  onChange: (config: IRect) => void;
+  onChange: (config: Partial<IRect>) => void;
 }
 
 export function ImageTransformer({
@@ -56,11 +57,12 @@ export function ImageTransformer({
         onMouseUp={onMouseUp}
         onMouseLeave={onMouseLeave}
         onTransform={(event) => {
+          onChange(transform(event));
+        }}
+        onDragMove={(event) => {
           const node = event.target;
 
           onChange({
-            width: node.width(),
-            height: node.height(),
             x: node.x(),
             y: node.y(),
           });

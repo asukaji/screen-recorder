@@ -6,10 +6,9 @@ import { StageContext } from '.';
 import { cloneElement, useContext } from 'react';
 
 interface IntersectionBoxProps {
-  children: ReactElement<Konva.Shape>;
+  children: ReactElement<Konva.Node>;
   upperRect?: IRect;
   lowerRect?: IRect;
-  onRectChange?: (rect: Partial<IRect>) => void;
 }
 
 interface Vector2d {
@@ -21,7 +20,6 @@ export function IntersectionBox({
   children,
   upperRect,
   lowerRect,
-  onRectChange,
 }: IntersectionBoxProps) {
   const { rectShape, imageShape } = useContext(StageContext);
 
@@ -42,8 +40,6 @@ export function IntersectionBox({
           ? imageShape.y
           : position.y,
     };
-
-    onRectChange?.(nextPosition);
 
     return nextPosition;
   };

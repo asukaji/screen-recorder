@@ -4,6 +4,7 @@ import { RectTransformer } from './RectTransformer';
 import { ImageTransformer } from './ImageTransformer';
 import { IntersectionLayer } from './IntersectionLayer';
 import { IntersectionBox } from './IntersectionBox';
+import { SnapBox } from './SnapBox';
 
 import type Konva from 'konva';
 
@@ -83,24 +84,33 @@ export default function CanvasExtension() {
               onChange={setRectangle}
             />
           </IntersectionBox>
-          <IntersectionBox
-            upperRect={rectangle}
-            onRectChange={(rect) => {
+          <SnapBox
+            shapeProps={shape}
+            lineX={rectangle.x}
+            lineY={rectangle.y}
+            onSnap={(rect) =>
               setShape({
                 ...shape,
                 ...rect,
-              });
-            }}
+              })
+            }
           >
-            <ImageTransformer
-              shapeProps={{ ...shape, id: 'image' }}
-              isSelected={selectedId === 'image'}
-              onSelect={() => {
-                selectShape('image');
-              }}
-              onChange={setShape}
-            />
-          </IntersectionBox>
+            <IntersectionBox upperRect={rectangle}>
+              <ImageTransformer
+                shapeProps={{ ...shape, id: 'image' }}
+                isSelected={selectedId === 'image'}
+                onSelect={() => {
+                  selectShape('image');
+                }}
+                onChange={(rect) =>
+                  setShape({
+                    ...shape,
+                    ...rect,
+                  })
+                }
+              />
+            </IntersectionBox>
+          </SnapBox>
         </Layer>
       </Stage>
     </StageContext.Provider>

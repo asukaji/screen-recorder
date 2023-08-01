@@ -3,6 +3,7 @@ import type { IRect } from '.';
 
 import { Transformer } from './Transformer';
 import { Rect } from 'react-konva';
+import { transform } from './utils';
 
 interface RectTransformerProps {
   shapeProps: Konva.RectConfig;
@@ -79,14 +80,7 @@ export function RectTransformer({
         // }}
 
         onTransform={(event) => {
-          const node = event.target;
-
-          onChange({
-            width: node.width(),
-            height: node.height(),
-            x: node.x(),
-            y: node.y(),
-          });
+          onChange(transform(event));
         }}
       ></Rect>
     </Transformer>
