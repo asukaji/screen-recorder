@@ -59,15 +59,17 @@ export function ImageTransformer({
         onTransform={(event) => {
           onChange(transform(event));
         }}
+        {...imageProps}
         onDragMove={(event) => {
           const node = event.target;
 
-          onChange({
-            x: node.x(),
-            y: node.y(),
-          });
+          // onChange({
+          //   x: node.x(),
+          //   y: node.y(),
+          // });
+
+          imageProps.onDragMove?.(event);
         }}
-        {...imageProps}
       />
     </Transformer>
   );

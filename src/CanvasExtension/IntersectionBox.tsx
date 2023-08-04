@@ -9,6 +9,7 @@ interface IntersectionBoxProps {
   children: ReactElement<Konva.Node>;
   upperRect?: IRect;
   lowerRect?: IRect;
+  onDragMove?: (event: Konva.KonvaEventObject<DragEvent>) => void;
 }
 
 interface Vector2d {
@@ -20,6 +21,7 @@ export function IntersectionBox({
   children,
   upperRect,
   lowerRect,
+  onDragMove,
 }: IntersectionBoxProps) {
   const { rectShape, imageShape } = useContext(StageContext);
 
@@ -74,5 +76,6 @@ export function IntersectionBox({
     // @ts-ignore
     dragBoundFunc,
     boundBoxFunc,
+    onDragMove,
   });
 }
